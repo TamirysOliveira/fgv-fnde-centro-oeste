@@ -292,3 +292,76 @@ def test_obs_frete_nao_pega_o_rotulo_da_proxima_opcao():
              "Sedex\nR$ 31,27\n3 dia(s) útil(eis)")
     f = LojaBase.interpretar_frete(texto)
     assert f.valor == 25.47 and f.modalidade == "Pac R$ 25,47 7 dia(s) útil(eis)"
+
+
+# ------------------------------------------------- UF de origem (13/10/2026)
+
+
+def test_coluna_d_traz_a_uf_do_fornecedor_e_nao_a_do_destino():
+    """Entrega de 13/10: a coluna D vinha GO (destino do frete) em todas as linhas."""
+    c = _coleta("1000")
+    c.fornecedor.estado = "sp "
+    linha = saida._linha(c)
+    assert linha[3] == "SP"
+    assert "74933-130" in linha[14]          # o frete continua calculado para GO
+    c.fornecedor.estado = ""
+    assert saida._linha(c)[3] == ""          # sem UF na planilha: vazio, nunca GO
+
+
+def test_mapa_uf_por_cnpj_e_por_site(tmp_path):
+    from fgv_precos.raspagem.uf_origem import ler_mapa_uf
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Fornecedores"
+    ws.append(["Estado", "Cidade", "Nome da Empresa", "CNPJ", "CNAE atacadista", "Site Oficial",
+               "Link (clicável)"])
+    ws.append(["SP", "Barueri", "Gimba", "54.651.716/0011-50", "", "https://www.gimba.com.br", ""])
+    ws.append(["SC", "Blumenau", "Zeus", "82.699.588/0001-88", "", "", "https://epizeus.com.br"])
+    ws.append(["RS", "Porto Alegre", "Repetida", "11.111.111/0001-11", "", "https://a.com.br", ""])
+    ws.append(["PR", "Curitiba", "Repetida", "11.111.111/0001-11", "", "https://a.com.br", ""])
+    wb.create_sheet("Resumo").append(["Grupo de Insumo", "X"])
+    arquivo = tmp_path / "FNDE_X.xlsx"
+    wb.save(arquivo)
+
+    mapa = ler_mapa_uf([arquivo, tmp_path / "nao_existe.xlsx"])
+    assert mapa.uf("54651716001150") == "SP"                                   # pelo CNPJ
+    assert mapa.uf("", "https://www.epizeus.com.br/luva?x=1") == "SC"          # pelo site
+    assert mapa.uf(None, "", "https://loja.gimba.com.br/p") == "SP"            # subdomínio
+    assert mapa.uf("11.111.111/0001-11") == ""                                 # UFs diferentes
+    assert mapa.uf("99.999.999/0001-99", "https://outra.com.br") == ""         # não achou
+
+
+def test_pasta_temporaria_que_sobrou_nao_impede_a_coleta(tmp_path, monkeypatch):
+    """13/10: '_coletando_1001' ficou no OneDrive e a coleta seguinte deu FileExistsError."""
+    temporaria = tmp_path / "_coletando_1001"
+    temporaria.mkdir()
+    (temporaria / "1001_GO_1.png").write_bytes(b"sobra")
+    monkeypatch.setattr(coletor.shutil, "rmtree", lambda *a, **k: None)   # como no OneDrive
+    assert coletor._preparar_temporaria(temporaria) == temporaria
+    assert temporaria.is_dir() and not any(temporaria.iterdir())
+
+
+def test_resumo_com_cabecalho_antigo_e_insumo_de_outro_grupo(tmp_path, monkeypatch):
+    """13/10: o resumo do EPI tinha 'Link Aproveitável' e os insumos 1000 e 1056."""
+    import importlib.util
+    import sys
+    from pathlib import Path
+
+    caminho = Path(__file__).resolve().parents[1] / "scripts" / "corrigir_entrega_2026_10_12.py"
+    spec = importlib.util.spec_from_file_location("corrigir_entrega", caminho)
+    script = importlib.util.module_from_spec(spec)
+    monkeypatch.setitem(sys.modules, "corrigir_entrega", script)   # exigido pelos dataclasses
+    spec.loader.exec_module(script)
+    pasta = tmp_path / "EPI UNIFORME"
+    pasta.mkdir()
+    (pasta / "resumo_coleta.csv").write_text(
+        "ID FGV;Grupo;UF;Preços coletados;Faltam;Link Aproveitável\n"
+        "1000;LIMPEZA E HIGIENE;GO;0;5;0\n1104;EPI / UNIFORME;GO;3;2;2\n", encoding="utf-8-sig")
+    monkeypatch.setattr(script, "DIR_ENTREGA", tmp_path)
+    linha = [None] * 16
+    linha[1] = "1104"
+    script._gravar_resumo("EPI UNIFORME", [linha, linha.copy()])
+    texto = (pasta / "resumo_coleta.csv").read_text(encoding="utf-8-sig").splitlines()
+    assert texto == ["ID FGV;Grupo;UF;Preços coletados;Faltam;Sem preço visível (coluna P)",
+                     "1104;EPI / UNIFORME;GO;2;3;0"]

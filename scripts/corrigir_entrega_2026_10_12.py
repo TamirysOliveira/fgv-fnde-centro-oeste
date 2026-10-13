@@ -47,13 +47,24 @@ contra os 437 prints (leitura de texto dos prints + conferência visual):
       novo, as linhas antigas desse fornecedor saem (prints para _historico)
       e as novas entram, com o print renomeado para o próximo número livre
       (os prints dos outros fornecedores não mudam de nome). Insumo sem
-      resultado novo fica como está.
+      resultado novo fica como está. A coluna D (UF) das linhas novas é
+      conferida com a planilha de fornecedores (ver corrigir-uf).
+
+    corrigir-uf       (regra de 13/10/2026)
+      A coluna D (UF) passa a ser a UF de onde a mercadoria sai: a UF do
+      estabelecimento do fornecedor (CNPJ da coluna G), lida na coluna
+      "Estado" das planilhas Fornecedores/FNDE_<Grupo>.xlsx. Antes ela trazia
+      GO, que é só o destino do frete. Só a coluna D muda; linhas, prints e
+      resumos ficam como estão. Cópia das planilhas em
+      _historico/entrega_backup_2026-10-13_uf/. Fornecedor não encontrado:
+      a UF fica vazia e o log avisa (CONFERIR).
 
 Exemplos (na raiz do repositório):
     python scripts/corrigir_entrega_2026_10_12.py corrigir
     python scripts/corrigir_entrega_2026_10_12.py aplicar-revisao
     python scripts/corrigir_entrega_2026_10_12.py aplicar-regra
     python scripts/corrigir_entrega_2026_10_12.py incorporar --ids 1105 1108 --fornecedor singular
+    python scripts/corrigir_entrega_2026_10_12.py corrigir-uf
 """
 
 from __future__ import annotations
@@ -67,13 +78,19 @@ import shutil
 import sys
 from collections import Counter
 from dataclasses import dataclass, field
+from functools import cache
 from pathlib import Path
 
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.worksheet.datavalidation import DataValidation
 
-from fgv_precos.config import ARQ_INSUMOS_PADRAO, DIR_HISTORICO
+from fgv_precos.config import (
+    ARQ_INSUMOS_PADRAO,
+    DIR_HISTORICO,
+    DIR_SAIDA_FORNECEDORES,
+    NOME_ARQUIVO_POR_GRUPO,
+)
 from fgv_precos.fornecedores.insumos import ler_insumos
 from fgv_precos.logging_config import configurar_logging
 from fgv_precos.precos import float_para_br, todos_valores
@@ -86,6 +103,7 @@ from fgv_precos.raspagem.config_raspagem import (
     PRECOS_POR_UF,
 )
 from fgv_precos.raspagem.descricao import Insumo, interpretar, palavras_faltantes, pontuar
+from fgv_precos.raspagem.uf_origem import MapaUF, ler_mapa_uf
 
 log = logging.getLogger("corrigir_entrega")
 
@@ -96,8 +114,10 @@ GRUPOS = {"EPI UNIFORME": "EPI_UNIFORME", "LIMPEZA E HIGIENE": "LIMPEZA E HIGIEN
 DIR_BACKUP = DIR_HISTORICO / "entrega_backup_2026-10-12"
 ARQ_REVISAO = DIR_HISTORICO / "revisao_aderencia_2026-10-12.xlsx"
 DIR_PRINTS_REMOVIDOS = DIR_HISTORICO / "prints_removidos"
+DIR_BACKUP_UF = DIR_HISTORICO / "entrega_backup_2026-10-13_uf"
 
 # Colunas (0 = A) do FNDE_output.
+UF, CNPJ = 3, 6
 CODIGO, EMPRESA, FONTE, PRODUTO, PRECO, FINAL = 1, 5, 7, 8, 9, 12
 VALOR_FRETE, OBS_FRETE, LINK_P = 13, 14, 15
 CEP = "74933-130"
@@ -294,20 +314,40 @@ def _mover_prints(destino: dict[Path, Path], pasta: Path) -> None:
     log.info("%s: %d prints renomeados/movidos.", pasta.name, len(temporarios))
 
 
+# Mesmas colunas de coletor.COLUNAS_RESUMO (o script não importa o coletor, que exige o Playwright).
+COLUNAS_RESUMO = ["ID FGV", "Grupo", "UF", "Preços coletados", "Faltam",
+                  "Sem preço visível (coluna P)"]
+
+
 def _gravar_resumo(grupo: str, linhas: list[list]) -> None:
+    """Recalcula o resumo do grupo a partir da planilha.
+
+    Sempre grava as colunas padrão (o cabeçalho antigo, com "Link aproveitável",
+    fazia esta função falhar) e só os insumos do próprio grupo. A coluna "UF"
+    do resumo é a UF da cesta (destino do frete, GO), não a do fornecedor.
+    """
     arquivo = DIR_ENTREGA / grupo / "resumo_coleta.csv"
+    categoria = next(c for c, pasta in PASTA_POR_CATEGORIA.items() if pasta == grupo)
     with open(arquivo, encoding="utf-8-sig", newline="") as fh:
         antigo = list(csv.DictReader(fh, delimiter=";"))
+    fora = [r["ID FGV"] for r in antigo if r.get("Grupo") != categoria]
+    if fora:
+        log.info("%s: o resumo tinha insumos de outro grupo (%s); eles saem do resumo.",
+                 grupo, ", ".join(fora))
     precos = Counter(str(v[CODIGO]) for v in linhas if not v[LINK_P])
     manuais = Counter(str(v[CODIGO]) for v in linhas if v[LINK_P])
+    novo = []
     for r in antigo:
+        if r.get("Grupo") != categoria:
+            continue
         n = precos[r["ID FGV"]]
-        r["Preços coletados"], r["Faltam"] = str(n), str(max(PRECOS_POR_UF - n, 0))
-        r["Sem preço visível (coluna P)"] = str(manuais[r["ID FGV"]])
+        novo.append({"ID FGV": r["ID FGV"], "Grupo": categoria, "UF": r.get("UF") or "GO",
+                     "Preços coletados": str(n), "Faltam": str(max(PRECOS_POR_UF - n, 0)),
+                     "Sem preço visível (coluna P)": str(manuais[r["ID FGV"]])})
     with open(arquivo, "w", encoding="utf-8-sig", newline="") as fh:
-        escritor = csv.DictWriter(fh, fieldnames=list(antigo[0]), delimiter=";")
+        escritor = csv.DictWriter(fh, fieldnames=COLUNAS_RESUMO, delimiter=";")
         escritor.writeheader()
-        escritor.writerows(antigo)
+        escritor.writerows(novo)
 
 
 # ------------------------------------------------------- lista de revisão
@@ -500,6 +540,11 @@ def cmd_incorporar(args) -> int:
         if codigo not in ids or filtro not in str(valores[EMPRESA] or "").casefold():
             continue
         grupo = PASTA_POR_CATEGORIA[categoria]
+        uf = mapa_uf().uf(valores[CNPJ], valores[FONTE], valores[LINK_P])
+        if uf != valores[UF]:
+            log.info("[%s] UF %s -> %s (%s)", codigo, valores[UF], uf or "(vazia: CONFERIR)",
+                     str(valores[EMPRESA])[:30])
+            valores[UF] = uf
         ln = Linha(valores, grupo)
         if not valores[LINK_P]:
             pasta_nova = DIR_PRINTS / PASTA_PRINT_POR_GRUPO[categoria]
@@ -527,6 +572,78 @@ def cmd_incorporar(args) -> int:
     _atualizar_revisao()
     log.info("Incorporado: %d linhas novas em %s.", sum(map(len, novas_por_grupo.values())),
              sorted(novas_por_grupo))
+    return 0
+
+
+# ------------------------------------------------------------ UF (13/10)
+@cache
+def mapa_uf() -> MapaUF:
+    """UF de cada fornecedor (planilhas Fornecedores/FNDE_<Grupo>.xlsx), lida uma vez."""
+    return ler_mapa_uf([DIR_SAIDA_FORNECEDORES / nome for nome in NOME_ARQUIVO_POR_GRUPO.values()])
+
+
+def cmd_corrigir_uf(_args) -> int:
+    """Coluna D = UF de onde a mercadoria sai (ver docstring). Só a coluna D muda."""
+    mapa = mapa_uf()
+    if not mapa.por_cnpj:
+        log.error("Nenhum fornecedor lido em %s; nada foi alterado.", DIR_SAIDA_FORNECEDORES)
+        return 1
+    # Nada muda se alguma planilha estiver aberta no Excel (as três mudam juntas).
+    abertas = []
+    for grupo in GRUPOS:
+        arquivo = DIR_ENTREGA / grupo / "FNDE_output.xlsx"
+        try:
+            with open(arquivo, "r+b"):
+                pass
+        except PermissionError:
+            abertas.append(str(arquivo))
+    if abertas:
+        log.error("Feche no Excel e rode de novo (nada foi alterado): %s", "; ".join(abertas))
+        return 1
+    # Cópia antes de mexer (não sobrescreve uma cópia anterior).
+    for grupo in GRUPOS:
+        origem = DIR_ENTREGA / grupo / "FNDE_output.xlsx"
+        destino = DIR_BACKUP_UF / grupo / origem.name
+        if destino.exists():
+            log.info("Cópia já existe, mantida: %s", destino)
+            continue
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(origem, destino)
+    log.info("Cópia das planilhas em %s", DIR_BACKUP_UF)
+
+    sem_uf: list[str] = []
+    for grupo in GRUPOS:
+        arquivo = DIR_ENTREGA / grupo / "FNDE_output.xlsx"
+        wb = load_workbook(arquivo)
+        ws = wb.active
+        if str(ws.cell(1, UF + 1).value).strip() != "UF":
+            log.error("%s: a coluna D não é 'UF' (%r); nada foi alterado.", arquivo,
+                      ws.cell(1, UF + 1).value)
+            return 1
+        mudou, por_uf = 0, Counter()
+        for (cel_uf,) in ws.iter_rows(min_row=2, min_col=UF + 1, max_col=UF + 1):
+            r = cel_uf.row
+            if ws.cell(r, CODIGO + 1).value in (None, ""):
+                continue
+            cnpj = ws.cell(r, CNPJ + 1).value
+            fonte, link_p = ws.cell(r, FONTE + 1).value, ws.cell(r, LINK_P + 1).value
+            uf = mapa.uf(cnpj, fonte, link_p)
+            if not uf:
+                sem_uf.append(f"{grupo} linha {r}: {ws.cell(r, EMPRESA + 1).value} ({cnpj})")
+            if uf != cel_uf.value:
+                cel_uf.value = uf or None
+                mudou += 1
+            por_uf[uf or "(vazia)"] += 1
+        try:
+            wb.save(arquivo)
+        except PermissionError:
+            log.error("Feche o arquivo no Excel e rode de novo: %s", arquivo)
+            return 1
+        log.info("%s: %d linhas com a UF alterada. Por UF: %s", grupo, mudou,
+                 ", ".join(f"{u} {n}" for u, n in sorted(por_uf.items())))
+    for item in sem_uf:
+        log.warning("CONFERIR: fornecedor sem UF na planilha de fornecedores: %s", item)
+    log.info("UF corrigida. %d linhas ficaram sem UF.", len(sem_uf))
     return 0
 
 
@@ -560,6 +677,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--ids", nargs="+", required=True)
     p.add_argument("--fornecedor", required=True)
     p.set_defaults(func=cmd_incorporar)
+    sub.add_parser("corrigir-uf", help="coluna D = UF de onde a mercadoria sai (fornecedor)"
+                   ).set_defaults(func=cmd_corrigir_uf)
     args = parser.parse_args(argv)
     configurar_logging(f"corrigir_entrega_{args.comando}")
     try:

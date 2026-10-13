@@ -34,3 +34,6 @@ _backup_codigo_*/
 _historico/prints_removidos/
 _historico/coletas_avulsas/
 _historico/coleta_bruta/
+
+# Compactados da Entrega (o Entrega.zip tem 239 MB; o GitHub recusa arquivos acima de 100 MB)
+*.zip

@@ -12,7 +12,10 @@ Mapeamento (confirmado com a equipe):
     A Categoria          = Grupo de Insumo
     B Código FGV         = ID FGV
     C Item               = Descrição completa do insumo
-    D UF                 = GO
+    D UF                 = UF de onde a mercadoria sai: coluna "Estado" da planilha
+                           de fornecedores (UF do estabelecimento do CNPJ da
+                           coluna G). GO é só o destino do frete (CEP 74933-130)
+                           e não vai para esta coluna. Regra de 13/10/2026.
     E Data coleta        = data da execução
     F Nome Empresa       = da planilha de fornecedores
     G CNPJ               = da planilha de fornecedores
@@ -52,6 +55,7 @@ from fgv_precos.raspagem.config_raspagem import (
     SEPARADOR_SAIDA,
 )
 from fgv_precos.raspagem.modelos import Coleta
+from fgv_precos.raspagem.uf_origem import normalizar_uf
 
 log = logging.getLogger(__name__)
 
@@ -89,8 +93,22 @@ def _obs_frete(c: Coleta) -> str:
     return f"Opção mais barata para o CEP {cep}: {f.modalidade}"
 
 
+def uf_origem(c: Coleta) -> str:
+    """Coluna D: UF do fornecedor (de onde a mercadoria sai), não a UF de destino.
+
+    ``c.uf`` é a UF da cesta (destino do frete, GO) e continua sendo usada para o
+    CEP, os prints e o resumo; ela não vai para a coluna D.
+    """
+    uf = normalizar_uf(c.fornecedor.estado)
+    if not uf:
+        log.warning("CONFERIR: %s sem UF válida na coluna 'Estado' da planilha de "
+                    "fornecedores (%r); a coluna D (UF) fica vazia.",
+                    c.fornecedor.nome, c.fornecedor.estado)
+    return uf
+
+
 def _linha(c: Coleta) -> list:
-    base = [c.grupo, c.insumo_id, c.descricao, c.uf, c.data, c.fornecedor.nome,
+    base = [c.grupo, c.insumo_id, c.descricao, uf_origem(c), c.data, c.fornecedor.nome,
             c.fornecedor.cnpj]
     p = c.produto
     if c.link_aproveitavel:

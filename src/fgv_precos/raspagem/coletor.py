@@ -171,6 +171,28 @@ def abrir_navegador(pw, headless: bool):
     raise RuntimeError(f"Nenhum navegador pôde ser aberto: {ultimo_erro}")
 
 
+def _preparar_temporaria(temporaria: Path) -> Path:
+    """Pasta temporária vazia para os prints do insumo.
+
+    No OneDrive a pasta de uma execução anterior às vezes não pode ser apagada
+    (13/10/2026: "_coletando_1001" ficou e a coleta seguinte da Stars falhou em
+    1001, 1004, 1009 e 1091 com FileExistsError). Se ela continuar lá, só os
+    arquivos de dentro são apagados e a pasta é reaproveitada.
+    """
+    shutil.rmtree(temporaria, ignore_errors=True)   # sobra de execução anterior
+    if temporaria.exists():
+        for sobra in temporaria.iterdir():
+            try:
+                if sobra.is_dir():
+                    shutil.rmtree(sobra)
+                else:
+                    sobra.unlink()
+            except OSError as exc:
+                log.warning("Sobra na pasta temporária não pôde ser apagada: %s (%s)", sobra, exc)
+    temporaria.mkdir(parents=True, exist_ok=True)
+    return temporaria
+
+
 def _publicar_prints(temporaria: Path, pasta: Path, id_fgv: str,
                      coletas: list[Coleta]) -> None:
     """Troca os prints antigos do insumo pelos novos, só depois da coleta dele.
@@ -242,9 +264,7 @@ class Coletor:
                  insumo.id_fgv, insumo.grupo, insumo.nomes_busca,
                  sorted(insumo.medidas_obrigatorias) or "-")
         pasta = DIR_PRINTS / PASTA_PRINT_POR_GRUPO[insumo.grupo]
-        temporaria = pasta / f"_coletando_{insumo.id_fgv}"
-        shutil.rmtree(temporaria, ignore_errors=True)   # sobra de execução interrompida
-        temporaria.mkdir(parents=True)
+        temporaria = _preparar_temporaria(pasta / f"_coletando_{insumo.id_fgv}")
 
         contagem = {uf: 0 for uf in CEPS}
         coletas: list[Coleta] = []

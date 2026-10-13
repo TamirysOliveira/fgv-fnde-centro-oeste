@@ -139,6 +139,10 @@ python scripts\raspar_precos_centro_oeste.py --ids 1000 --ver-navegador
 
 Regras (revisadas em 09/10/2026):
 - Só GO (CEP 74933-130). Cada insumo precisa de 5 preços com frete.
+- Coluna D (UF) = UF de onde a mercadoria sai: a coluna "Estado" da planilha
+  de fornecedores (UF do estabelecimento do CNPJ da coluna G). GO é só o
+  destino do frete e não vai para a coluna D (regra de 13/10/2026). Fornecedor
+  sem UF válida na planilha: a coluna D fica vazia e o log avisa (CONFERIR).
 - O print mostra nome completo do produto, preço e frete para GO. É a página
   do produto ou, no WooCommerce, o carrinho.
 - Preço = o preço visível na página. Cupom, PIX e outros descontos não entram,
@@ -217,6 +221,15 @@ python scripts\corrigir_entrega_2026_10_12.py aplicar-regra
 
 tira da entrega as linhas que não passam na regra de aderência (o Balde
 Retrátil 1056 fica, por decisão da equipe).
+
+```bat
+python scripts\corrigir_entrega_2026_10_12.py corrigir-uf
+```
+
+preenche a coluna D (UF) das três planilhas com a UF do fornecedor (de onde a
+mercadoria sai), sem mexer em mais nada. Cópia em
+`_historico\entrega_backup_2026-10-13_uf`. O `incorporar` faz o mesmo nas
+linhas novas.
 
 Para refazer só um fornecedor em alguns insumos e levar o resultado para a
 entrega (ex.: Singular, cujo frete saiu para o CEP errado). Se a coleta nova
