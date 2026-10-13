@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Dados volumosos / gerados automaticamente
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# Logs de execução
+logs/*
+!logs/.gitkeep
+
+# Arquivos temporários do Office e do sistema
+~$*
+*.part
+.DS_Store
+Thumbs.db
+desktop.ini

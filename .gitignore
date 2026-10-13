@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Dados volumosos / gerados automaticamente
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# Logs de execução
+logs/*
+!logs/.gitkeep
+
+# Arquivos temporários do Office e do sistema
+~$*
+*.part
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cópias de segurança e arquivos temporários da raspagem
+_backup_codigo_*/
+**/_coletando_*/
+*_ilegivel_*
+*.egg-info/
+.ruff_cache/
+
+# _historico: vão para o GitHub só as cópias pequenas (planilhas, listas, código).
+# Prints retirados e coletas brutas são grandes e ficam só no computador.
+_historico/prints_removidos/
+_historico/coletas_avulsas/
+_historico/coleta_bruta/

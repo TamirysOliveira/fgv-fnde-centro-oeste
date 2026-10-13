@@ -1,0 +1,3 @@
+# Instala as dependências e o próprio pacote (src/fgv_precos) em modo editável,
+# para os scripts acharem "fgv_precos" sem mexer no sys.path.
+-e .[dev]

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fgv-precos"
+version = "0.2.0"
+description = "Pesquisa de fornecedores e preços - FGV IBRE (projeto FNDE)"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "lxml>=4.9",
+    "playwright>=1.40",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+# Permite rodar os testes mesmo sem "pip install -e ." (procura o pacote em src/).
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+ignore = [
+    "SIM105",   # try/except/pass explícito é mais legível para a equipe que contextlib.suppress
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Trechos de JavaScript entre aspas e montagem de dados curados: linhas longas são aceitáveis.
+"src/fgv_precos/raspagem/plataformas/*.py" = ["E501"]
+"scripts/montar_curados_pesquisa_2026_10.py" = ["E501"]
