@@ -54,3 +54,9 @@ APROVADO · REPROVADO (motivo) · A REVISAR (falta conferir o print) · A COLETA
   `python scripts/raspar_precos_centro_oeste.py --completar-merge --ver-navegador --ids 1098 1100 1101 1102 1103 1104 1105 1106 1107 1109 1110 1112 1113 1114 1117`
   Não rodar sem `--ids`: a lista do que falta vem da Entrega, que só muda depois do `importar-robo`.
 - Em 14/10 o `.gitignore` deixou de ignorar os prints de `_historico` (coleta_bruta, merge) para o projeto ir inteiro ao GitHub. Cópia anterior: `trabalho_2026-10-13/gitignore_antes_push_2026-10-14`.
+
+## Revisão do robô (14/10/2026, EPMUDA 428)
+- O robô terminou os 15 insumos que faltavam; `importar-robo` levou 83 linhas para `candidatos.xlsx` (Origem "Robô 2026-10-14_105308").
+- Revisão dos prints: 34 APROVADO e 49 REPROVADO, todos com o motivo na coluna Motivo. Preço corrigido: 1098 PreveOeste 33,90 (o lido era o "De" riscado).
+- Decisões de 14/10: 1028 limpador multiuso automotivo aceito; 1082 Ridgid recusado (1390 W de trabalho < 1.600 W); 1086/1087 tubo de polietileno aceito como mangueira; 1093 EVA aceito como borracha; 1103 recusado (sem cabo, cerdas naturais); 1114 Astro fica com R$ 10,42.
+- Evidências das linhas novas acrescentadas a `evidencias_observacao.csv`.
