@@ -31,9 +31,16 @@ _backup_codigo_*/
 
 # _historico: vão para o GitHub só as cópias pequenas (planilhas, listas, código).
 # Prints retirados e coletas brutas são grandes e ficam só no computador.
-_historico/prints_removidos/
-_historico/coletas_avulsas/
-_historico/coleta_bruta/
+# (14/10/2026: passou a ir para o GitHub, para continuar em outro computador) _historico/prints_removidos/
+# (14/10/2026: passou a ir para o GitHub, para continuar em outro computador) _historico/coletas_avulsas/
+# (14/10/2026: passou a ir para o GitHub, para continuar em outro computador) _historico/coleta_bruta/
 
 # Compactados da Entrega (o Entrega.zip tem 239 MB; o GitHub recusa arquivos acima de 100 MB)
 *.zip
+
+# Merge (13/10/2026): prints de trabalho ficam só no computador (a Entrega continua versionada).
+# (14/10/2026: passou a ir para o GitHub, para continuar em outro computador) _historico/merge/prints_candidatos/
+# (14/10/2026: passou a ir para o GitHub, para continuar em outro computador) _historico/merge/prints_substituidos/
+# (14/10/2026: passou a ir para o GitHub, para continuar em outro computador) _historico/merge/coleta_links/*/prints/
+# (14/10/2026: passou a ir para o GitHub, para continuar em outro computador) _historico/merge/coleta_links/*/diagnostico/
+# (14/10/2026: passou a ir para o GitHub, para continuar em outro computador) _historico/merge/base_entrega_2026-10-13/*/prints/

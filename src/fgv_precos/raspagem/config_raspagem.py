@@ -57,6 +57,31 @@ PASTA_PRINT_POR_GRUPO: dict[str, str] = {
 # 0 volta ao comportamento anterior (só a palavra principal).
 PALAVRAS_EXTRAS_MINIMAS: int = 1
 
+# Atributos de texto obrigatórios (o que vem depois do travessão "–" e não é
+# medida). O nome do produto precisa ter pelo menos uma das alternativas de
+# cada grupo (comparadas sem acento). Lista e sinônimos aprovados em 13/10/2026.
+# 1083/1084/1085 (enceradeiras) ficam como estão; 1120-1123 são serviços.
+ATRIBUTOS_TEXTO: dict[str, list[list[str]]] = {
+    "1004": [["refil"]],
+    "1005": [["aerossol", "aerosol", "spray"]],
+    "1006": [["liquido"]],
+    "1074": [["12 degraus"]],
+    "1075": [["5 degraus", "6 degraus"]],
+    "1088": [["cabo curto"]],
+    "1089": [["cabo longo"]],
+    "1091": [["banheiro interditado", "banheiro fora de uso"]],
+    "1092": [["piso molhado", "escorregadio"]],
+}
+
+# Atributos que, se faltarem no nome, não recusam o produto: ele vai para a conferência
+# no print/página ("NÃO INFORMADO"). Decisão de 13/10/2026: quase nenhuma loja escreve
+# "cabo curto"/"cabo longo" no nome da pá.
+ATRIBUTOS_CONFERIR_NO_PRINT: set[str] = {"1088", "1089"}
+
+# Teores aceitos além do que está escrito na descrição (decisão de 13/10/2026:
+# o 1001 é álcool 46,2°, e "46°" no nome também vale).
+TEORES_EQUIVALENTES: dict[str, set[float]] = {"1001": {46.0}}
+
 # Frete maior que este múltiplo do preço gera um aviso no log, para conferência.
 FRETE_ALERTA_MULTIPLO: float = 3.0
 

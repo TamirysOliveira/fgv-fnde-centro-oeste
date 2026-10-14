@@ -1,0 +1,1226 @@
+{
+"1": {
+"incolor": [
+"NAO",
+""
+],
+"autobrilhante/impermeabilizante": [
+"SIM",
+"página: \"cera acrilica auto brilho deoline\""
+]
+},
+"2": {
+"concentrado": [
+"NAO",
+""
+],
+"biodegradável": [
+"NAO",
+""
+]
+},
+"4": {
+"não abrasiva": [
+"SIN",
+"página: \"produto sem abrasivo, proporciona uma limpeza sem agressao\""
+]
+},
+"6": {
+"desengordurante": [
+"SIN",
+"página: \"retirada de residuos, manchas de comida e gordura\""
+]
+},
+"7": {
+"100% algodão": [
+"SIM",
+"página: \"pano de copa martins confeccionado em algodao\""
+],
+"branco": [
+"SIN",
+"página: \"tecido de origem natural com textura lisa alvejada\" (não diz branco)"
+],
+"absorvente": [
+"NAO",
+""
+]
+},
+"8": {
+"100% celulose/não reciclado": [
+"NAO",
+""
+]
+},
+"9": {
+"biodegradável": [
+"NAO",
+""
+]
+},
+"10": {
+"biodegradável": [
+"NAO",
+""
+]
+},
+"11": {
+"reforçado": [
+"NAO",
+"página: \"espessura: fino\""
+]
+},
+"12": {
+"cabo longo": [
+"SIM",
+"página: \"cabo longo e resistente que permite usar a pa sem precisar se abaixar\""
+],
+"tampa basculante": [
+"NAO",
+"página fala só em \"design com travas\""
+]
+},
+"0": {
+"balde espremedor": [
+"NAO",
+""
+],
+"compartimentos água limpa/suja": [
+"NAO",
+""
+],
+"pá": [
+"NAO",
+""
+]
+},
+"3": {
+"espuma": [
+"NAO",
+""
+],
+"fibra abrasiva": [
+"SIN",
+"página: \"o lado verde atua na limpeza pesada\""
+]
+},
+"5": {
+"líquido": [
+"PEND",
+""
+]
+},
+"13": {
+"cerdas duras": [
+"DEC",
+"decisão de 13/10: piaçava no 1098 fica (nome tem \"piaçava\")"
+]
+},
+"14": {
+"tampa": [
+"NAO",
+""
+]
+},
+"15": {
+"balde espremedor": [
+"NAO",
+""
+],
+"compartimentos água limpa/suja": [
+"NAO",
+""
+],
+"pá": [
+"NAO",
+""
+]
+},
+"16": {
+"rede protetora": [
+"NAO",
+""
+],
+"gancho": [
+"SIM",
+"página: \"introduza o gancho no orificio central do produto\""
+]
+},
+"17": {
+"líquido": [
+"IMP",
+"página: só \"500ml\" (detergente lava-louças)"
+]
+},
+"18": {
+"não abrasiva": [
+"NAO",
+"página: \"fibra uso macio\""
+]
+},
+"19": {
+"abrasiva": [
+"NAO",
+""
+]
+},
+"20": {
+"dobrável/portátil": [
+"NAO",
+""
+]
+},
+"21": {
+"teor de cloro 2% a 2,5%": [
+"NAO",
+""
+]
+},
+"22": {
+"100% celulose/não reciclado": [
+"NAO",
+""
+]
+},
+"23": {
+"ação bactericida": [
+"SIN",
+"página: \"o clean by peroxy elimina ate 99,99% das bacterias\""
+]
+},
+"24": {
+"não abrasiva": [
+"SIN",
+"página: \"sua textura macia efetua uma limpeza eficaz sem riscos em superficies delicadas\""
+]
+},
+"25": {
+"dobrável/portátil": [
+"SIM",
+"página: \"ela e portatil e com aviso de ambos os lados do cavalete\""
+]
+},
+"26": {
+"tampa": [
+"NAO",
+""
+]
+},
+"27": {
+"uso profissional": [
+"NAO",
+"página: \"residencial (motor universal)\", \"indicada para servicos domesticos\""
+]
+},
+"28": {
+"capuz": [
+"SIM",
+"página: \"capuz conjugado\""
+],
+"costuras seladas": [
+"SIN",
+"página: \"costura atraves de solda eletronica\""
+]
+},
+"29": {
+"impermeável": [
+"TIT",
+"só no título da aba: \"Bota PVC Cano Médio Bracol Galocha Impermeável Segura\""
+],
+"solado antiderrapante": [
+"NAO",
+""
+]
+},
+"30": {
+"cerdas duras": [
+"DECQ",
+"piaçava sintética: \"material das cerdas: piacava sintetica\""
+]
+},
+"31": {
+"impermeável": [
+"PVC",
+"página: \"pvc forrado com poliester\", \"barreira eficaz contra respingos\""
+]
+},
+"32": {
+"impermeável": [
+"PVC",
+"página: bota de PVC, sem \"impermeável\""
+],
+"solado antiderrapante": [
+"SIM",
+"página: \"com ressaltos antiderrapantes\""
+]
+},
+"33": {
+"rede protetora": [
+"NAO",
+""
+],
+"gancho": [
+"NAO",
+""
+]
+},
+"34": {
+"aço carbono": [
+"NAO",
+""
+]
+},
+"35": {
+"concentrado": [
+"NAO",
+""
+]
+},
+"36": {
+"reforçado": [
+"NAO",
+""
+]
+},
+"37": {
+"abrasivo": [
+"NAO",
+""
+]
+},
+"38": {
+"aerossol": [
+"SIM",
+"página: \"odorizador de ar lavanda - marca ultra fresh - aerossol 400ml\""
+]
+},
+"39": {
+"líquido": [
+"SIM",
+"página: \"um detergente liquido eficiente e economico\""
+]
+},
+"40": {
+"líquido": [
+"NAO",
+""
+]
+},
+"41": {
+"100% celulose/não reciclado": [
+"SIM",
+"página: \"papel higienico folha dupla cai-cai 100% celulose (interfolhado)\""
+],
+"metragem por rolo": [
+"NAO",
+"interfolhado em caixa com 9000 folhas"
+]
+},
+"42": {
+"com fragrância": [
+"NAO",
+""
+]
+},
+"43": {
+"reforçado": [
+"NAO",
+""
+]
+},
+"44": {
+"gatilho": [
+"SIM",
+"página: \"seu gatilho pulverizador oferece excelente desempenho\""
+]
+},
+"45": {
+"balde espremedor": [
+"NAO",
+""
+],
+"compartimentos água limpa/suja": [
+"NAO",
+""
+],
+"pá": [
+"NAO",
+""
+]
+},
+"46": {
+"rodas": [
+"SIM",
+"página: \"rodas de borracha de alta performance com diametro de 200mm\""
+],
+"tampa": [
+"SIM",
+"página: \"material da tampa: plasitoc\""
+]
+},
+"47": {
+"plástico PP": [
+"SIM",
+"página: \"confeccionada em polipropileno de alta qualidade\""
+],
+"tampa": [
+"SIM",
+"página: \"tampa integrada que evita a saida de odores\""
+]
+},
+"48": {
+"cabo longo": [
+"NAO",
+"página: só \"cabo de madeira revestido com plastico\""
+]
+},
+"49": {
+"cerdas duras": [
+"DECQ",
+"nome \"piaçava\", mas página: \"as cerdas feitas em pet com uma espessura de 0,80 mm\""
+]
+},
+"50": {
+"dobrável/portátil": [
+"NAO",
+""
+]
+},
+"51": {
+"descartável": [
+"SIM",
+"página: \"o respirador semifacial descartavel pff1\""
+]
+},
+"52": {
+"impermeável": [
+"SIM",
+"página: \"material: pvc e poliester ... impermeavel\""
+]
+},
+"53": {
+"descartável": [
+"NAO",
+""
+]
+},
+"54": {
+"com alça": [
+"NAO",
+"página: \"tipo do pegador: com pegador no fundo\""
+]
+},
+"55": {
+"alça metálica": [
+"NAO",
+""
+]
+},
+"56": {
+"plástico": [
+"NAO",
+""
+],
+"gatilho": [
+"NAO",
+""
+]
+},
+"57": {
+"uso profissional": [
+"NAO",
+"página: \"ideal para tornar as tarefas de limpeza residencial\""
+]
+},
+"58": {
+"uso profissional": [
+"NAO",
+"página: \"ideal para o uso em residencias, escritorios e pequenos comercios\""
+]
+},
+"59": {
+"cabo longo": [
+"MED",
+"página: \"cabo de 65 cm\""
+]
+},
+"60": {
+"borracha": [
+"SIM",
+"página: \"rodo plastico 40cm com cabo - borracha dupla\""
+],
+"cabo longo": [
+"NAO",
+""
+]
+},
+"61": {
+"pelo sintético": [
+"SIN",
+"página: \"cerdas de pet 0,20 mm\""
+]
+},
+"62": {
+"teor de cloro 2% a 2,5%": [
+"NAO",
+""
+]
+},
+"63": {
+"ação bactericida": [
+"SIM",
+"página: \"com acao bactericida, e indicado para uso em superficies\""
+]
+},
+"64": {
+"concentrado": [
+"SIM",
+"página: \"desinfetante quaternario optigerm oxikill concentrado\""
+]
+},
+"65": {
+"espuma": [
+"NAO",
+""
+],
+"fibra abrasiva": [
+"NAO",
+""
+]
+},
+"66": {
+"desengordurante": [
+"NAO",
+""
+]
+},
+"67": {
+"com alça": [
+"NAO",
+""
+]
+},
+"68": {
+"borracha": [
+"NAO",
+""
+],
+"cabo ergonômico": [
+"NAO",
+""
+]
+},
+"69": {
+"borracha": [
+"NAO",
+""
+],
+"cabo longo ~60 cm": [
+"NAO",
+""
+]
+},
+"70": {
+"pelo sintético": [
+"NAO",
+""
+]
+},
+"71": {
+"acrílica": [
+"NAO",
+""
+],
+"autobrilhante/impermeabilizante": [
+"NAO",
+""
+]
+},
+"72": {
+"autobrilhante": [
+"NAO",
+"página: só \"proporciona brilho intenso e duradouro\""
+],
+"impermeabilizante": [
+"NAO",
+""
+]
+},
+"73": {
+"ação bactericida": [
+"NAO",
+""
+]
+},
+"74": {
+"quaternário de amônio": [
+"NAO",
+""
+]
+},
+"75": {
+"biodegradável": [
+"NAO",
+""
+]
+},
+"76": {
+"espuma": [
+"NAO",
+""
+],
+"fibra abrasiva": [
+"SIN",
+"página: \"com duas faces - uma mais abrasiva para sujeiras pesadas e outra mais macia\""
+]
+},
+"77": {
+"não abrasiva": [
+"SIN",
+"página: \"macia e delicada, nao risca ou danifica superficies sensiveis\""
+]
+},
+"78": {
+"abrasiva": [
+"NAO",
+"página: \"suave o suficiente para nao riscar\""
+]
+},
+"79": {
+"fios longos": [
+"NAO",
+""
+]
+},
+"80": {
+"aço carbono": [
+"NAO",
+"página: só \"fabricada com fios de aco grossos\""
+]
+},
+"81": {
+"líquido": [
+"NAO",
+""
+]
+},
+"82": {
+"líquido": [
+"NAO",
+""
+]
+},
+"83": {
+"desengordurante": [
+"NAO",
+""
+]
+},
+"84": {
+"100% celulose/não reciclado": [
+"SIM",
+"página: \"tipo de papel: 100% celulose\""
+]
+},
+"85": {
+"extra branco": [
+"SIN",
+"página só diz \"rolao branco\" (não \"extra branco\")"
+]
+},
+"86": {
+"alcalino": [
+"NAO",
+""
+]
+},
+"87": {
+"biodegradável": [
+"NAO",
+""
+]
+},
+"88": {
+"biodegradável": [
+"NAO",
+""
+]
+},
+"89": {
+"concentrado": [
+"NAO",
+""
+]
+},
+"90": {
+"abrasivo": [
+"SIM",
+"página: \"a acao abrasiva controlada potencializa a limpeza\""
+]
+},
+"91": {
+"em escamas": [
+"NAO",
+""
+],
+"mínimo 96%": [
+"NAO",
+""
+]
+},
+"92": {
+"com alça": [
+"NAO",
+""
+]
+},
+"93": {
+"gatilho": [
+"NAO",
+""
+]
+},
+"94": {
+"balde espremedor": [
+"NAO",
+""
+],
+"compartimentos água limpa/suja": [
+"NAO",
+"página: só \"compartimentos que facilitam a organizacao\""
+],
+"pá": [
+"NAO",
+""
+]
+},
+"95": {
+"plástico PP": [
+"NAO",
+""
+],
+"tampa": [
+"SIM",
+"página: \"tampa articulada e design funcional\""
+]
+},
+"96": {
+"cabo ergonômico": [
+"NAO",
+""
+]
+},
+"97": {
+"borracha": [
+"SIM",
+"página: \"material: borracha resistente e cabo plastico reforcado\""
+],
+"cabo longo ~60 cm": [
+"NAO",
+""
+]
+},
+"98": {
+"com suporte": [
+"SIN",
+"página: \"acompanha estojo branco que mantem a escova guardada\""
+]
+},
+"99": {
+"cabo mínimo 50 cm": [
+"NAO",
+""
+]
+},
+"100": {
+"uso profissional": [
+"NAO",
+"página: \"uso indicado: limpeza residencial\""
+]
+},
+"101": {
+"plástica ou metálica": [
+"SIM",
+"página: \"material: plastico resistente\""
+]
+},
+"102": {
+"tampa basculante": [
+"NAO",
+""
+],
+"cabo longo": [
+"NAO",
+""
+]
+},
+"103": {
+"dobrável/portátil": [
+"SIM",
+"página: \"possui estrutura leve, dobravel e de facil transporte\""
+]
+},
+"104": {
+"dobrável/portátil": [
+"SIM",
+"página: \"possui estrutura dobravel que facilita o transporte\""
+]
+},
+"105": {
+"cabo longo": [
+"NAO",
+""
+]
+},
+"106": {
+"cabo extensível": [
+"NAO",
+""
+]
+},
+"107": {
+"~13 cm": [
+"NAO",
+""
+]
+},
+"108": {
+"plástico": [
+"SIM",
+"página: \"material do corpo: plastico\""
+],
+"gatilho": [
+"SIM",
+"página: \"tipo de pulverizador: frasco com gatilho\""
+]
+},
+"109": {
+"70%": [
+"SIM",
+"página: \"com concentracao de 70% inpm\""
+]
+},
+"110": {
+"folha simples": [
+"NAO",
+""
+],
+"300 m": [
+"NAO",
+""
+],
+"extra branco": [
+"NAO",
+""
+]
+},
+"111": {
+"reforçado": [
+"SIM",
+"página: \"saco para lixo de 40 litros reforcado\""
+]
+},
+"112": {
+"reforçado": [
+"SIM",
+"página: \"saco para lixo de 60 litros reforcado\""
+]
+},
+"113": {
+"reforçado": [
+"SIM",
+"página: \"saco para lixo de 200 litros reforcado\""
+]
+},
+"114": {
+"teor de cloro 2% a 2,5%": [
+"NAO",
+""
+]
+},
+"115": {
+"espuma": [
+"SIM",
+"página: \"dupla face: espuma amarela macia para limpeza delicada\""
+],
+"fibra abrasiva": [
+"SIM",
+"página: \"camada verde abrasiva para sujeiras pesadas\""
+]
+},
+"116": {
+"cabo longo": [
+"NAO",
+""
+]
+},
+"117": {
+"com cabo": [
+"NAO",
+""
+]
+},
+"118": {
+"espuma": [
+"NAO",
+""
+],
+"fibra abrasiva": [
+"NAO",
+""
+]
+},
+"119": {
+"dobrável/portátil": [
+"NAO",
+""
+]
+},
+"120": {
+"cerdas duras": [
+"DEC",
+"decisão de 13/10: piaçava no 1098 fica; página: \"opcao de cerdas/material: piacava natural\""
+]
+},
+"121": {
+"tampa": [
+"NAO",
+""
+]
+},
+"122": {
+"polietileno": [
+"NAO",
+""
+]
+},
+"123": {
+"cano curto": [
+"NAO",
+""
+]
+},
+"124": {
+"malha fria": [
+"SIN",
+"página: \"malha pv ... (67% poliester, 33% viscose)\""
+],
+"gola redonda/esporte": [
+"SIM",
+"página: \"gola : redonda\""
+]
+},
+"125": {
+"bolsos": [
+"SIM",
+"página: \"calca em brim pesado 100% algodao com 4 bolsos\""
+],
+"fechamento frontal": [
+"NAO",
+""
+]
+},
+"126": {
+"impermeável": [
+"SIM",
+"página: \"impermeabilidade: totalmente impermeavel\""
+],
+"solado antiderrapante": [
+"SIM",
+"página: \"sola antiderrapante: sola com excelente aderencia\""
+]
+},
+"127": {
+"cano médio ou longo": [
+"SIM",
+"página: \"comprimento: +-80cm\""
+]
+},
+"128": {
+"capuz": [
+"SIM",
+"página: \"capa de chuva em pvc forrado preto com capuz\""
+],
+"costuras seladas": [
+"NAO",
+""
+]
+},
+"129": {
+"impermeável": [
+"SIM",
+"página: \"bota impermeavel confeccionada em pvc emborrachado injetado\""
+],
+"solado antiderrapante": [
+"SIM",
+"página: \"solado: tratorado em pvc antiderrapante\""
+]
+},
+"130": {
+"forrada": [
+"NAO",
+""
+],
+"cano curto": [
+"NAO",
+""
+]
+},
+"131": {
+"impermeável": [
+"PVC",
+"página: avental de PVC forrado, sem \"impermeável\""
+]
+},
+"132": {
+"PVC": [
+"SIM",
+"página: \"calca e jaqueta confeccionadas em pvc forrado\""
+],
+"capuz": [
+"NAO",
+""
+],
+"costuras seladas": [
+"NAO",
+""
+]
+},
+"133": {
+"cano médio ou longo": [
+"NAO",
+"página: \"comprimento: 26cm\""
+]
+},
+"134": {
+"fechamento frontal": [
+"NAO",
+""
+]
+},
+"135": {
+"cano curto": [
+"NAO",
+""
+]
+},
+"136": {
+"impermeável": [
+"SIM",
+"página: \"a bota e totalmente impermeavel\""
+],
+"solado antiderrapante": [
+"SIM",
+"página: \"com solado antiderrapante que garante boa aderencia\""
+],
+"cano médio ou longo": [
+"SIM",
+"página: \"esta bota possui cano longo (aproximadamente 39 cm)\""
+]
+},
+"137": {
+"teor de cloro 2% a 2,5%": [
+"NAO",
+""
+]
+},
+"138": {
+"líquido": [
+"SIM",
+"página: \"aparencia: liquido transparente\""
+]
+},
+"139": {
+"concentrado": [
+"NAO",
+""
+]
+},
+"140": {
+"gatilho": [
+"SIM",
+"página: \"o gatilho ajustavel proporciona um selo seguro\""
+]
+},
+"141": {
+"balde espremedor": [
+"NAO",
+""
+],
+"compartimentos água limpa/suja": [
+"NAO",
+"página: só \"compartimentos bem distribuidos para produtos\""
+],
+"pá": [
+"NAO",
+""
+]
+},
+"142": {
+"cabo mínimo 50 cm": [
+"NAO",
+""
+]
+},
+"143": {
+"cabo longo": [
+"NAO",
+"página: só \"com cabo de aluminio\""
+]
+},
+"144": {
+"dobrável/portátil": [
+"NAO",
+""
+]
+},
+"145": {
+"com cabo": [
+"NAO",
+""
+]
+},
+"146": {
+"aerossol": [
+"SIM",
+"página: \"com sua formula em aerossol\""
+]
+},
+"147": {
+"base acrílica/polietilênica": [
+"SIM",
+"página: \"formulada com resinas acrilicas concentradas\""
+]
+},
+"148": {
+"tampa": [
+"SIM",
+"página: \"tampa articulada com encaixe preciso\""
+]
+},
+"149": {
+"polietileno": [
+"NAO",
+""
+]
+},
+"150": {
+"impermeável": [
+"NAO",
+""
+],
+"solado antiderrapante": [
+"NAO",
+""
+]
+},
+"151": {
+"100% celulose/não reciclado": [
+"NAO",
+""
+]
+},
+"152": {
+"borracha": [
+"NAO",
+""
+],
+"cabo longo ~60 cm": [
+"NAO",
+"página: \"cabo longo de 90cm\" (insumo ~60 cm, sem tolerância)"
+]
+},
+"153": {
+"plástico": [
+"SIM",
+"página: \"rodo de pia plastico 14 cm\""
+],
+"~13 cm": [
+"NAO",
+"página: \"14 cm\" (insumo ~13 cm, sem tolerância)"
+]
+},
+"154": {
+"gola redonda/esporte": [
+"SIM",
+"página: \"design classico com gola careca reforcada\""
+]
+},
+"155": {
+"bolsos": [
+"SIM",
+"página: \"bolsos amplos e funcionais\""
+],
+"fechamento frontal": [
+"NAO",
+""
+]
+},
+"156": {
+"solado antiderrapante": [
+"NAO",
+""
+]
+},
+"157": {
+"algodão": [
+"SIM",
+"página: \"tricotada com fios de algodao e poliester\""
+]
+},
+"158": {
+"impermeável": [
+"PVC",
+"página: \"fabricado em pvc de alta qualidade\", sem \"impermeável\""
+]
+},
+"159": {
+"tampa": [
+"NAO",
+""
+]
+},
+"160": {
+"teor de cloro 2% a 2,5%": [
+"NAO",
+""
+]
+},
+"161": {
+"quaternário de amônio": [
+"SIM",
+"página: \"desinfetante a base de quaternario de amonio de 5ª geracao\""
+]
+},
+"162": {
+"rede protetora": [
+"NAO",
+""
+],
+"gancho": [
+"NAO",
+""
+]
+},
+"163": {
+"líquido": [
+"IMP",
+"página: só \"detergente neutro 500ml\""
+]
+},
+"164": {
+"biodegradável": [
+"NAO",
+""
+]
+},
+"165": {
+"espuma": [
+"NAO",
+""
+],
+"fibra abrasiva": [
+"SIN",
+"página: \"uma face abrasiva para remocao de sujeiras mais dificeis\""
+]
+}
+}

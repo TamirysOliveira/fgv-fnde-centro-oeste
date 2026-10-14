@@ -681,6 +681,12 @@ def main(argv: list[str] | None = None) -> int:
                    ).set_defaults(func=cmd_corrigir_uf)
     args = parser.parse_args(argv)
     configurar_logging(f"corrigir_entrega_{args.comando}")
+    if not any((DIR_ENTREGA / g / "FNDE_output.xlsx").exists() for g in PASTA_POR_CATEGORIA.values()):
+        # Desde 13/10/2026 a Entrega é montada por scripts/montar_merge.py; a antiga
+        # FNDE_output.xlsx está em _historico/merge/base_entrega_2026-10-13/.
+        log.error("A Entrega agora é montada por scripts/montar_merge.py. Para levar uma coleta "
+                  "do robô à revisão, use: python scripts/montar_merge.py importar-robo")
+        return 1
     try:
         return args.func(args)
     except Exception:  # noqa: BLE001 - registra qualquer erro no log antes de sair

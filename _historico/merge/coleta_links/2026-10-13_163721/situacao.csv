@@ -1,0 +1,432 @@
+﻿Seq;ID FGV;Grupo;Nome Empresa;CNPJ;UF;Link pedido;Link final;Produto;Preço;Preço de;Frete;OBS frete;Aderência;Situação;Aviso;Print;Data coleta;Chave origem
+1;1002;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/higiene/alcool-gel-70-all-clean-5-lt-111150audax;https://www.novalimp.com.br/higiene/alcool-gel-70-all-clean-5-lt-111150audax;Álcool Gel 70% All Clean 5 Litros - Audax;45.96;;;;23;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|11
+2;1004;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chagedos/alcool-gel-70-5-lts-uso-geral-ecoflame;https://www.novalimp.com.br/recem-chagedos/alcool-gel-70-5-lts-uso-geral-ecoflame;Álcool em Gel 70% 5 Litros Ecoflame;41.76;;;;0;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|21
+3;1005;LIMPEZA E HIGIENE;Gimba;54.651.716/0011-50;SP;https://www.gimba.com.br/odorizadores-sanitarios/odorizador-de-ambientes-ultra-fresh-spray-lavanda-400ml-1-un/?PID=68850;https://www.gimba.com.br/odorizadores-sanitarios/odorizador-de-ambientes-ultra-fresh-spray-lavanda-400ml-1-un/?PID=68850;Odorizador de Ambientes Ultra Fresh Spray Lavanda 400ml 1 UN;9.99;;32.54;Opção mais barata para o CEP 74933-130: Valor: R$ 32,54 Prazo: Entrega em até 9 dia(s) úteis após liberação do pedido!;0;OK;CONFERIR: a regra de aderência recusa o nome do produto;prints/003_1005.png;2026-10-13;W13|MATE|22
+4;1005;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/odorizador-de-ar-lavanda-ultra-fresh-400ml-2-prod.html;https://www.distribuidoracaue.com.br/odorizador-de-ar-lavanda-ultra-fresh-400ml-2-prod.html;Odorizador De Ar Lavanda Ultra Fresh 400ml;;;;Preço sob consulta/orçamento;0;COLUNA P;CONFERIR: a regra de aderência recusa o nome do produto;;2026-10-13;W13|MATE|23
+5;1005;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chagedos/odorizador-puro-ar-petalas-400ml;https://www.novalimp.com.br/recem-chagedos/odorizador-puro-ar-petalas-400ml;Odorizador de Ambientes Puro Ar Pétalas 400ml;13.02;;;;0;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|24
+6;1007;LIMPEZA E HIGIENE;Anhanguera Ferramentas;00.565.813/0001-29;SP;https://www.anhangueraferramentas.com.br/brilha-inox-para-limpeza-profissional-400ml-scotch-brite-3m-96145;https://www.anhangueraferramentas.com.br/produto/brilha-inox-para-limpeza-profissional-400ml-scotch-brite-3m-96145;Brilha Inox para Limpeza Profissional 400ml SCOTCH-BRITE 3M;53.49;63.44;75.59;Opção mais barata para o CEP 74933-130: Transportadora R$ 75,59 Em até 6 dias úteis;14;OK;;prints/006_1007.png;2026-10-13;W13|MATE|27
+7;1008;LIMPEZA E HIGIENE;CASA DA LIMPEZA LTDA;07.964.337/0001-68;GO;https://casadalimpeza.net/produto/cera-acrilica-start-master-5l/;https://casadalimpeza.net/produto/cera-acrilica-start-master-5l/;Cera acrílica Start Master 5L;205.00;;;Frete não calculado (GO para GO);13;OK (GO: frete não calculado);;prints/007_1008.png;2026-10-13;
+8;1011;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chegados/desinfetante-concentrado-marine-5l;https://www.novalimp.com.br/recem-chegados/desinfetante-concentrado-marine-5l;Desinfetante Concentrado Marine 5L;72.95;;;;19;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|38
+9;1012;LIMPEZA E HIGIENE;Guarulhos Embalagens;30.679.614/0001-02;SP;https://www.guarulhosembalagens.com.br/produtos-de-limpeza/pedra-sanitaria;https://www.guarulhosembalagens.com.br/produtos-de-limpeza/pedra-sanitaria;Pedra Sanitária;3.00;;;;13;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|43
+10;1021;LIMPEZA E HIGIENE;CASA DA LIMPEZA LTDA;07.964.337/0001-68;GO;https://casadalimpeza.net/produto/fibra-verde-3m/;https://casadalimpeza.net/produto/fibra-verde-3m/;Fibra Verde 3M;5.90;;;Frete não calculado (GO para GO);14;OK (GO: frete não calculado);;prints/010_1021.png;2026-10-13;
+11;1022;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chegados/flanela-38x58-amarela;https://www.novalimp.com.br/recem-chegados/flanela-38x58-amarela;Flanela Amarela 38 x 58cm;2.58;;;;12;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|84
+12;1022;LIMPEZA E HIGIENE;Guarulhos Embalagens;30.679.614/0001-02;SP;https://www.guarulhosembalagens.com.br/produtos-de-limpeza/flanela-branca;https://www.guarulhosembalagens.com.br/produtos-de-limpeza/flanela-branca;Flanela Branca;2.00;;;;11;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|85
+13;1023;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chegados/estopa-branca-extra-1kg-polimento;https://www.novalimp.com.br/recem-chegados/estopa-branca-extra-1kg-polimento;Estopa Branca Extra 1kg (Polimento);15.52;;;;13;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|86
+14;1025;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chagedos/limpa-aluminio-red-500-ml-fuzetto;https://www.novalimp.com.br/recem-chagedos/limpa-aluminio-red-500-ml-fuzetto;Limpa Alumínio RED Fuzetto 500ml;3.91;;;;19;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|96
+15;1026;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/limpa-pedras-pedrex-5-litros-2-prod.html;https://www.distribuidoracaue.com.br/limpa-pedras-pedrex-5-litros-2-prod.html;Limpa Pedras Pedrex - 5 Litros;;;;Preço sob consulta/orçamento;19;COLUNA P;;;2026-10-13;W13|MATE|97
+16;1026;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chagedos/limpa-pedra-plus-deep-wash-5l-archote;https://www.novalimp.com.br/recem-chagedos/limpa-pedra-plus-deep-wash-5l-archote;Limpador Limpa Pedra Plus Deep Wash Archote 5 Litros Limpeza Pesada;76.87;;;;0;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|99
+17;1028;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/limpador-multiuso-suprema-500ml-3-prod.html;https://www.distribuidoracaue.com.br/limpador-multiuso-suprema-500ml-3-prod.html;Limpador Multiuso Suprema 500ml;;;;Preço sob consulta/orçamento;18;COLUNA P;;;2026-10-13;W13|MATE|107
+18;1030;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/limpeza/leve-brisa-caixa-acoplada-50g;https://www.novalimp.com.br/limpeza/leve-brisa-caixa-acoplada-50g;Limpador Sanitário Refil para Caixa Acoplada 50g;7.35;;;;14;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|116
+19;1031;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/lustra-moveis-worker-500ml-2-prod.html;https://www.distribuidoracaue.com.br/lustra-moveis-worker-500ml-2-prod.html;Lustra Móveis Worker 500ml;;;;Preço sob consulta/orçamento;19;COLUNA P;;;2026-10-13;W13|MATE|120
+20;1031;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chagedos/lustra-moveis-peroba-flores-do-campo-500;https://www.novalimp.com.br/recem-chagedos/lustra-moveis-peroba-flores-do-campo-500;Lustra Móveis Peroba Flores do Campo 500ml;25.58;;;;19;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|121
+21;1033;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/pano-de-prato-alta-qualidade-prod.html;https://www.distribuidoracaue.com.br/pano-de-prato-alta-qualidade-prod.html;Pano De Prato Alta Qualidade;;;;Preço sob consulta/orçamento;13;COLUNA P;;;2026-10-13;W13|MATE|124
+22;1036;LIMPEZA E HIGIENE;Gimba;54.651.716/0011-50;SP;https://www.gimba.com.br/toalha-de-papel-interfolha/papel-toalha-momento-interfolhado-folha-simples-20x21cm-pct-c1000-fl/?PID=26414;https://www.gimba.com.br/toalha-de-papel-interfolha/papel-toalha-momento-interfolhado-folha-simples-20x21cm-pct-c1000-fl/?PID=26414;Papel Toalha Momento Interfolhado Folha Simples 20x21cm PCT C/1000 FL;22.99;;;;16;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|137
+23;1036;LIMPEZA E HIGIENE;PreveOeste;01.974.824/0001-25;SC;https://www.preveoeste.com.br/papel-toalha-interfolhado-branco-20x21cm-com-1000-unidades-1838-p141006;https://www.preveoeste.com.br/papel-toalha-interfolhado-branco-20x21cm-com-1000-unidades-1838-p141006;Papel Toalha Interfolhado Branco 20x21cm Com 1000 unidades;21.75;22.90;;;16;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|138
+24;1036;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chagedos/papel-intbc-2d-22-5x21-100-baby-c1000;https://www.novalimp.com.br/recem-chagedos/papel-intbc-2d-22-5x21-100-baby-c1000;Papel Interfolha Branco 2 Dobras 22,5x21cm 100% Celulose - Baby Pacote com 1000 Folhas;22.71;;;;0;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|139
+25;1036;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/papel-toalha-interfolha-2d-slim-nobre-com-1000-folhas-prod.html;https://www.distribuidoracaue.com.br/papel-toalha-interfolha-2d-slim-nobre-com-1000-folhas-prod.html;Papel Toalha Interfolha Folha Simples Fit Nobre Pct C/ 1000un;;;;Preço sob consulta/orçamento;13;COLUNA P;;;2026-10-13;W13|MATE|141
+26;1037;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/removedor-de-cera-5-litros-magico-3-prod.html;https://www.distribuidoracaue.com.br/removedor-de-cera-5-litros-magico-3-prod.html;Removedor De Cera 5 Litros - Mágico;;;;Preço sob consulta/orçamento;19;COLUNA P;;;2026-10-13;W13|MATE|142
+27;1038;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/saboo-em-barra-ype-neutro-prod.html;https://www.distribuidoracaue.com.br/saboo-em-barra-ype-neutro-prod.html;Sabão Em Barra Ypê Neutro - 900g;;;;Preço sob consulta/orçamento;16;COLUNA P;;;2026-10-13;W13|MATE|147
+28;1039;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/saboo-em-po-flash-floral-1kg-prod.html;https://www.distribuidoracaue.com.br/saboo-em-po-flash-floral-1kg-prod.html;Sabão Em Pó Flash Floral - 1kg;;;;Preço sob consulta/orçamento;13;COLUNA P;;;2026-10-13;W13|MATE|149
+29;1040;LIMPEZA E HIGIENE;CASA DA LIMPEZA LTDA;07.964.337/0001-68;GO;https://casadalimpeza.net/produto/sabao-liquido-para-roupas-deoline-5-litros/;https://casadalimpeza.net/produto/sabao-liquido-para-roupas-deoline-5-litros/;Sabão líquido para roupas Deoline 5 litros;62.00;;;Frete não calculado (GO para GO);18;OK (GO: frete não calculado);;prints/029_1040.png;2026-10-13;
+30;1046;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/saco-para-lixo-leve-boca-larga-100-litros-fardo-com-100-prod.html;https://www.distribuidoracaue.com.br/saco-para-lixo-leve-boca-larga-100-litros-fardo-com-100-prod.html;Saco Para Lixo Leve Boca Larga 100 Litros - Fardo Com 100;;;;Preço sob consulta/orçamento;18;COLUNA P;;;2026-10-13;W13|MATE|178
+31;1046;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chegados/saco-lx-azul-100l-primebag;https://www.novalimp.com.br/recem-chegados/saco-lx-azul-100l-primebag;Saco de Lixo Azul 100 Litros - Pacote com 100 Unidades;42.14;;;;18;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|180
+32;1047;LIMPEZA E HIGIENE;Casa do Saco de Lixo;02.236.630/0001-95;PR;https://loja.casadosacodelixo.com.br/saco-de-lixo-150-litros-preto;https://loja.casadosacodelixo.com.br/saco-de-lixo-150-litros-preto;"Saco de lixo 150 Litros Preto (Espessura: Especial; Quantidade: 10 unidades)";12.95;;27.42;Opção mais barata para o CEP 74933-130: R$ 27,42 5 dias úteis Jadlog - .Com;19;OK;;prints/032_1047.png;2026-10-13;W13|MATE|181
+33;1048;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chagedos/saco-lx-vermelho-200l-ord2-ord3-splus;https://www.novalimp.com.br/recem-chagedos/saco-lx-vermelho-200l-ord2-ord3-splus;Saco de Lixo Vermelho 200 Litros Pacote com 100 Unidades;101.19;;;;18;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|186
+34;1048;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/saco-para-lixo-200l-coleta-seletiva-verde-c-100-un-prod.html;https://www.distribuidoracaue.com.br/saco-para-lixo-200l-coleta-seletiva-verde-c-100-un-prod.html;Saco Para Lixo 200L- Coleta Seletiva Verde - C/ 100 Un.;;;;Preço sob consulta/orçamento;18;COLUNA P;;;2026-10-13;W13|MATE|187
+35;1050;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chegados/sapoleo-em-po-radium-classico-300-grs;https://www.novalimp.com.br/recem-chegados/sapoleo-em-po-radium-classico-300-grs;Sapólio em Pó Radium Clássico;6.21;;;;13;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|190
+36;1051;LIMPEZA E HIGIENE;CASA DA LIMPEZA LTDA;07.964.337/0001-68;GO;https://casadalimpeza.net/produto/selador-start-master-5l/;https://casadalimpeza.net/produto/selador-start-master-5l/;Selador Start Master 5L;199.00;;;Frete não calculado (GO para GO);15;OK (GO: frete não calculado);;prints/036_1051.png;2026-10-13;
+37;1051;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chegados/agipro-evolution-base-seladora-5-lts-1;https://www.novalimp.com.br/recem-chegados/agipro-evolution-base-seladora-5-lts-1;Agipro Evolution Base Seladora 5 Litros;137.35;;;;0;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|195
+38;1053;LIMPEZA E HIGIENE;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/disco-lustrador-branco-350mm-2-prod.html;https://www.distribuidoracaue.com.br/disco-lustrador-branco-350mm-2-prod.html;Disco Lustrador Branco 350mm;;;;Preço sob consulta/orçamento;17;COLUNA P;;;2026-10-13;W13|MATE|201
+39;1053;LIMPEZA E HIGIENE;LF Máquinas e Ferramentas;91.845.735/0004-14;RS;https://www.lfmaquinaseferramentas.com.br/disco-lustrador-350mm-norton-care-para-piso/p?skuId=121595;https://www.lfmaquinaseferramentas.com.br/disco-lustrador-350mm-norton-care-para-piso/p?skuId=121595;Disco Lustrador 350mm Norton Care para Piso;32.59;40.90;45.57;Opção mais barata para o CEP 74933-130: Em até 9 dias úteis R$ 45,57;14;OK;;prints/039_1053.png;2026-10-13;W13|MATE|202
+40;1053;LIMPEZA E HIGIENE;Profissional da Limpeza;45.343.703/0001-50;SP;https://profissionaldalimpeza.commercesuite.com.br/abrasivos/disco-lustrador-branco-disco-para-enceradeira;https://profissionaldalimpeza.commercesuite.com.br/abrasivos/disco-lustrador-branco-disco-para-enceradeira;Disco Lustrador Branco - Disco para enceradeira;149.90;;;;20;SEM FRETE;o campo de CEP ficou com '74933' em vez de 74933130 (print em diagnostico/);;2026-10-13;W13|MATE|203
+41;1054;LIMPEZA E HIGIENE;Palácio das Ferramentas;68.422.419/0001-75;SP;https://palaciodasferramentas.com.br/disco-abrasivo-removedor-preto-350-mm-cleaner;https://palaciodasferramentas.com.br/disco-abrasivo-removedor-preto-350-mm-cleaner;Disco Abrasivo Removedor Preto 350 MM CLEANER;35.56;;;;17;SEM FRETE;página do produto sem calculadora de frete (print em diagnostico/);;2026-10-13;W13|MATE|205
+42;1054;LIMPEZA E HIGIENE;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/limpeza/disco-removedor-preto-350mm-3m;https://www.novalimp.com.br/limpeza/disco-removedor-preto-350mm-3m;Disco Removedor Preto 3M de 350 mm;29.07;;;;17;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|MATE|208
+43;1055;LIMPEZA E HIGIENE;LF Máquinas e Ferramentas;91.845.735/0004-14;RS;https://www.lfmaquinaseferramentas.com.br/soda-caustica-desentupidor-allchem/p?skuId=130587;https://www.lfmaquinaseferramentas.com.br/soda-caustica-desentupidor-allchem/p?skuId=130587;Soda Cáustica Desentupidor Allchem;14.46;33.90;26.24;Opção mais barata para o CEP 74933-130: Em até 6 dias úteis R$ 26,24;13;OK;;prints/043_1055.png;2026-10-13;W13|MATE|209
+44;1055;LIMPEZA E HIGIENE;Casa dos Químicos;30.799.772/0001-04;RS;https://www.casadosquimicos.com.br/soda-caustica-escamas-99-hidroxido-de-sodio-1-kg-150179;https://www.casadosquimicos.com.br/produto/soda-caustica-escamas-99-hidroxido-de-sodio-1-kg-150179;Soda Cáustica Escamas 99% (Hidróxido de Sódio) 1 Kg;18.90;;31.97;Opção mais barata para o CEP 74933-130: Total Express R$ 31,97 Em até 5 dias úteis;21;OK;;prints/044_1055.png;2026-10-13;W13|MATE|211
+45;1058;LIMPEZA PREDIAL;LF Máquinas e Ferramentas;91.845.735/0004-14;RS;https://www.lfmaquinaseferramentas.com.br/balde-plastico-multius-10l-roma-66065/p?skuId=142560;https://www.lfmaquinaseferramentas.com.br/balde-plastico-multius-10l-roma-66065/p?skuId=142560;BALDE PLASTICO MULTIUS 10L ROMA;27.90;;17.44;Opção mais barata para o CEP 74933-130: Em até 8 dias úteis R$ 17,44;18;OK;;prints/045_1058.png;2026-10-13;W13|FERR|9
+46;1059;LIMPEZA PREDIAL;LF Máquinas e Ferramentas;91.845.735/0004-14;RS;https://www.lfmaquinaseferramentas.com.br/balde-plastico-momfort-12-litros/p?skuId=28405;https://www.lfmaquinaseferramentas.com.br/balde-plastico-momfort-12-litros/p?skuId=28405;Balde De Plástico Momfort 12 Litros;18.90;22.90;19.67;Opção mais barata para o CEP 74933-130: Em até 6 dias úteis R$ 19,67;18;OK;;prints/046_1059.png;2026-10-13;W13|FERR|14
+47;1059;LIMPEZA PREDIAL;Anhanguera Ferramentas;00.565.813/0001-29;SP;https://www.anhangueraferramentas.com.br/balde-de-plastico-extraforte-preto-12-litros-3315012001-vonder-120188;https://www.anhangueraferramentas.com.br/produto/balde-de-plastico-extraforte-preto-12-litros-3315012001-vonder-120188;Balde de Plástico Extraforte Preto 12 Litros 3315012001 VONDER;16.89;19.32;37.57;Opção mais barata para o CEP 74933-130: PAC* R$ 37,57 Em até 8 dias úteis;18;OK;;prints/047_1059.png;2026-10-13;W13|FERR|15
+48;1060;LIMPEZA PREDIAL;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/equipamentos-e-utensilios/balde-20-litros-com-alca-metalica-bf20;https://www.novalimp.com.br/equipamentos-e-utensilios/balde-20-litros-com-alca-metalica-bf20;Balde Plástico 20 Litros com Alça;20.94;;;;19;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|FERR|20
+49;1064;LIMPEZA PREDIAL;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chegados/coletor-240lts-pt-cpedal-crodas-c240pp;https://www.novalimp.com.br/recem-chegados/coletor-240lts-pt-cpedal-crodas-c240pp;Coletor de Lixo 240 Litros Preto com Pedal e Rodas;532.34;;;;0;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|FERR|38
+50;1064;LIMPEZA PREDIAL;Profissional da Limpeza;45.343.703/0001-50;SP;https://profissionaldalimpeza.commercesuite.com.br/equipamentos-de-limpeza/lixeiras/lixeira-com-rodas-240-litros;https://profissionaldalimpeza.commercesuite.com.br/equipamentos-de-limpeza/lixeiras/lixeira-com-rodas-240-litros;Lixeira Com Rodas 240 Litros;302.99;;;;0;SEM FRETE;o campo de CEP ficou com '74933' em vez de 74933130 (print em diagnostico/);;2026-10-13;W13|FERR|39
+51;1066;LIMPEZA PREDIAL;LF Máquinas e Ferramentas;91.845.735/0004-14;RS;https://www.lfmaquinaseferramentas.com.br/lixeira-de-pedal-trium-6-litros-preto-64198/p?skuId=140693;https://www.lfmaquinaseferramentas.com.br/lixeira-de-pedal-trium-6-litros-preto-64198/p?skuId=140693;Lixeira De Pedal Trium 6 Litros Preto;67.90;;17.44;Opção mais barata para o CEP 74933-130: Em até 8 dias úteis R$ 17,44;0;OK;CONFERIR: a regra de aderência recusa o nome do produto;prints/051_1066.png;2026-10-13;W13|FERR|44
+52;1067;LIMPEZA PREDIAL;LF Máquinas e Ferramentas;91.845.735/0004-14;RS;https://www.lfmaquinaseferramentas.com.br/lixeira-de-pedal-trium-20-litros-preto-64205/p?skuId=140700;https://www.lfmaquinaseferramentas.com.br/lixeira-de-pedal-trium-20-litros-preto-64205/p?skuId=140700;Lixeira De Pedal Trium 20 Litros Preto;134.90;;26.47;Opção mais barata para o CEP 74933-130: Em até 8 dias úteis R$ 26,47;0;OK;CONFERIR: a regra de aderência recusa o nome do produto;prints/052_1067.png;2026-10-13;W13|FERR|46
+53;1067;LIMPEZA PREDIAL;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chegados/lixeira-basc-plastic-sanremo-20-5l-ref;https://www.novalimp.com.br/recem-chegados/lixeira-basc-plastic-sanremo-20-5l-ref;Lixeira Basculante Plástica Sanremo 20,5 Litros;66.46;;;;18;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|FERR|47
+54;1070;LIMPEZA PREDIAL;Gimba;54.651.716/0011-50;SP;https://www.gimba.com.br/dispenser-papel-higienico/dispenser-de-papel-higienico-biovis-300m-plastico-branco-1-un/?PID=58130;https://www.gimba.com.br/dispenser-papel-higienico/dispenser-de-papel-higienico-biovis-300m-plastico-branco-1-un/?PID=58130;Dispenser de Papel Higiênico Biovis 300m Plástico Branco 1 UN;49.90;;34.65;Opção mais barata para o CEP 74933-130: Valor: R$ 34,65 Prazo: Entrega em até 9 dia(s) úteis após liberação do pedido!;16;OK;;prints/054_1070.png;2026-10-13;W13|FERR|58
+55;1072;LIMPEZA PREDIAL;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/dispenser-para-sabonete-liquido-800ml-2-prod.html;https://www.distribuidoracaue.com.br/dispenser-para-sabonete-liquido-800ml-2-prod.html;Dispenser Para Sabonete Líquido 800ml;;;;Preço sob consulta/orçamento;18;COLUNA P;;;2026-10-13;W13|FERR|69
+56;1075;LIMPEZA PREDIAL;Anhanguera Ferramentas;00.565.813/0001-29;SP;https://www.anhangueraferramentas.com.br/escada-de-aluminio-6-degraus-1-80m-eb-106-alulev-109997;https://www.anhangueraferramentas.com.br/produto/escada-de-aluminio-6-degraus-1-80m-eb-106-alulev-109997;Escada de Alumínio 6 Degraus 1.80m EB 106 ALULEV;258.73;328.33;75.03;Opção mais barata para o CEP 74933-130: Loggi Envio Nacional R$ 75,03 Em até 5 dias úteis;13;OK;;prints/056_1075.png;2026-10-13;W13|FERR|78
+57;1075;LIMPEZA PREDIAL;LF Máquinas e Ferramentas;91.845.735/0004-14;RS;https://www.lfmaquinaseferramentas.com.br/escada-pintor-aluminio-alulev-ap106-profissional-6degraus/p?skuId=16544;https://www.lfmaquinaseferramentas.com.br/escada-pintor-aluminio-alulev-ap106-profissional-6degraus/p?skuId=16544;Escada Pintor Alumínio Alulev Ap106 Profissional 1,80 Metros 6 Degraus;879.90;1089.00;103.63;Opção mais barata para o CEP 74933-130: Em até 11 dias úteis R$ 103,63;13;OK;;prints/057_1075.png;2026-10-13;W13|FERR|81
+58;1076;LIMPEZA PREDIAL;Casa do Saco de Lixo;02.236.630/0001-95;PR;https://loja.casadosacodelixo.com.br/escova-sanitaria-com-suporte-2024-05-14-16-11-31;https://loja.casadosacodelixo.com.br/escova-sanitaria-com-suporte-2024-05-14-16-11-31;Escova sanitária com suporte (Modelo: Betthavale);11.25;;27.42;Opção mais barata para o CEP 74933-130: R$ 27,42 5 dias úteis Jadlog - .Com;14;OK;;prints/058_1076.png;2026-10-13;W13|FERR|82
+59;1077;LIMPEZA PREDIAL;Anhanguera Ferramentas;00.565.813/0001-29;SP;https://www.anhangueraferramentas.com.br/escova-manual-com-cerdas-de-nylon-3599030003-vonder-120138;https://www.anhangueraferramentas.com.br/produto/escova-manual-com-cerdas-de-nylon-3599030003-vonder-120138;Escova Manual com Cerdas de Nylon 3599030003 VONDER;16.43;18.44;9.29;Opção mais barata para o CEP 74933-130: Loggi Envio Nacional R$ 9,29 Em até 5 dias úteis;0;OK;CONFERIR: a regra de aderência recusa o nome do produto;prints/059_1077.png;2026-10-13;W13|FERR|85
+60;1077;LIMPEZA PREDIAL;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/escova-lavadeira-nylon-max-2-prod.html;https://www.distribuidoracaue.com.br/escova-lavadeira-nylon-max-2-prod.html;Escova Lavadeira Nylon Max;;;;Preço sob consulta/orçamento;0;COLUNA P;CONFERIR: a regra de aderência recusa o nome do produto;;2026-10-13;W13|FERR|88
+61;1077;LIMPEZA PREDIAL;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/equipamentos-e-utensilios/escova-lava-roupa-oval-b-mad-nylon-ord2;https://www.novalimp.com.br/equipamentos-e-utensilios/escova-lava-roupa-oval-b-mad-nylon-ord2;Escova Lava Roupa Oval com Base de Madeira e Cerdas de Nylon;3.65;;;;0;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|FERR|89
+62;1079;LIMPEZA PREDIAL;Anhanguera Ferramentas;00.565.813/0001-29;SP;https://www.anhangueraferramentas.com.br/extensao-eletrica-carretel-pp-3x2-5mm-30m-20a-1547-maxi-pro-daneva-106726;https://www.anhangueraferramentas.com.br/produto/extensao-eletrica-carretel-pp-3x2-5mm-30m-20a-1547-maxi-pro-daneva-106726;Extensão Elétrica Carretel PP 3x2.5mm² 30m 20A 1547 MAXI PRO DANEVA;723.41;;41.44;Opção mais barata para o CEP 74933-130: Loggi Envio Nacional R$ 41,44 Em até 5 dias úteis;18;OK;;prints/062_1079.png;2026-10-13;W13|FERR|91
+63;1081;LIMPEZA PREDIAL;LF Máquinas e Ferramentas;91.845.735/0004-14;RS;https://www.lfmaquinaseferramentas.com.br/aspirador-de-po-e-liquido-industrial-dewalt-30l-1500w/p?skuId=127326;https://www.lfmaquinaseferramentas.com.br/aspirador-de-po-e-liquido-industrial-dewalt-30l-1500w/p?skuId=127326;Aspirador de Pó e Líquido Industrial Dewalt 30L 1500W;2849.00;;61.70;Opção mais barata para o CEP 74933-130: Em até 9 dias úteis R$ 61,70;16;OK;;prints/063_1081.png;2026-10-13;W13|FERR|97
+64;1081;LIMPEZA PREDIAL;Mundo Azul;15.536.864/0001-08;PR;https://lojamundoazul.com.br/produto/aspirador-de-po-e-liquidos-nt-585/;https://lojamundoazul.com.br/produto/aspirador-de-po-e-liquidos-nt-585/;Aspirador de Pó e Líquidos NT 585;5500.00;;;;13;SEM FRETE;carrinho com 0 itens (esperado 1) (print em diagnostico/);;2026-10-13;W13|FERR|98
+65;1082;LIMPEZA PREDIAL;Anhanguera Ferramentas;00.565.813/0001-29;SP;https://www.anhangueraferramentas.com.br/aspirador-de-po-e-liquido-30-litros-1600w-monofasico-nt-3000-karcher-109254;https://www.anhangueraferramentas.com.br/produto/aspirador-de-po-e-liquido-30-litros-1600w-monofasico-nt-3000-karcher-109254;Aspirador de Pó e Líquido 30 Litros 1600W Monofásico NT 3000 KARCHER;796.76;;;;18;SEM FRETE;"erro ao calcular frete: Locator.click: Timeout 45000ms exceeded.
+Call log:
+  - waiting for locator(""input[name*='cep' i]"").first
+    - locator resolved to <input type=""text"" maxlength=""9"" class=""textbox"" id=""shipping-quote-cep"" onkeyup=""maskCep(this)"" name=""shipping-quote-cep"" placeholder=""informe seu cep""/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  21 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+ (print em diagnostico/)";;2026-10-13;W13|FERR|99
+66;1083;LIMPEZA PREDIAL;Anhanguera Ferramentas;00.565.813/0001-29;SP;https://www.anhangueraferramentas.com.br/lavadora-e-secadora-de-piso-eletrica-510mm-2000m2-h-bd-50-50-karcher-102117;https://www.anhangueraferramentas.com.br/produto/lavadora-e-secadora-de-piso-eletrica-510mm-2000m2-h-bd-50-50-karcher-102117;Lavadora e Secadora de Piso Elétrica 510mm 2000M2/H BD 50/50 KARCHER;17926.60;;;;10;SEM FRETE;"erro ao calcular frete: Locator.click: Timeout 45000ms exceeded.
+Call log:
+  - waiting for locator(""input[name*='cep' i]"").first
+    - locator resolved to <input type=""text"" maxlength=""9"" class=""textbox"" id=""shipping-quote-cep"" onkeyup=""maskCep(this)"" name=""shipping-quote-cep"" placeholder=""informe seu cep""/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  21 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+ (print em diagnostico/)";;2026-10-13;W13|FERR|105
+67;1085;LIMPEZA PREDIAL;Mundo Azul;15.536.864/0001-08;PR;https://lojamundoazul.com.br/produto/lavadora-e-secadora-de-piso-br-30-4-c-karcher/;https://lojamundoazul.com.br/produto/lavadora-e-secadora-de-piso-br-30-4-c-karcher/;Lavadora e Secadora de Piso BR 30/4 C KARCHER;858.00;;;;10;SEM FRETE;carrinho com 0 itens (esperado 1) (print em diagnostico/);;2026-10-13;W13|FERR|114
+68;1086;LIMPEZA PREDIAL;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chegados/mangueira-12-50-mts-completa;https://www.novalimp.com.br/recem-chegados/mangueira-12-50-mts-completa;Mangueira de 1/2 Polegada - 50 Metros Completa;246.59;;;;0;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|FERR|117
+69;1088;LIMPEZA PREDIAL;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/limpeza/pa-coletora-plastica-pop-com-cabo-pp555;https://www.novalimp.com.br/limpeza/pa-coletora-plastica-pop-com-cabo-pp555;Pá Coletora Plástica Pop com Cabo;83.04;;;;14;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|FERR|123
+70;1090;LIMPEZA PREDIAL;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chegados/pa-coletora-ctampa-e-cabo-plastico-f4;https://www.novalimp.com.br/recem-chegados/pa-coletora-ctampa-e-cabo-plastico-f4;Pá Coletora com Tampa e Cabo Plástico F4;39.96;;;;17;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|FERR|133
+71;1093;LIMPEZA PREDIAL;CASA DA LIMPEZA LTDA;07.964.337/0001-68;GO;https://casadalimpeza.net/produto/rodo-eco-40cm-c-cabo-14mts/;https://casadalimpeza.net/produto/rodo-eco-40cm-c-cabo-14mts/;Rodo Eco 40cm c/cabo 1,4mts;38.40;;;Frete não calculado (GO para GO);16;OK (GO: frete não calculado);;prints/071_1093.png;2026-10-13;
+72;1094;LIMPEZA PREDIAL;Gimba;54.651.716/0011-50;SP;https://www.gimba.com.br/vassouras-e-rodos/rodo-de-plastico-brubalar-duplo-para-chao-60cm-com-cabo-de-madeira-rev/?PID=78781;https://www.gimba.com.br/vassouras-e-rodos/rodo-de-plastico-brubalar-duplo-para-chao-60cm-com-cabo-de-madeira-revestido-120m-1-un/?PID=78781;Rodo de Plástico Brubalar Duplo para Chão 60cm com Cabo de Madeira Revestido 1,20m 1 UN;18.59;;77.36;Opção mais barata para o CEP 74933-130: Valor: R$ 77,36 Prazo: Entrega em até 7 dia(s) úteis após liberação do pedido!;17;OK;;prints/072_1094.png;2026-10-13;W13|FERR|150
+73;1094;LIMPEZA PREDIAL;General Clean;17.587.390/0001-40;SP;https://www.generalclean.com.br/rodo-aluminio-60cm-cabo-retratil;https://www.generalclean.com.br/rodo-aluminio-60cm-cabo-retratil;RODO ALUMINIO 60CM - CABO RETRATIL;;;13807769.77;Opção mais barata para o CEP 74933-130: JADLOG .Com R$ 13.807.769,77 Prazo de entrega: Capital de todo Brasil: 01 a 03 dias. Interior de Todo Brasil: 02 a 05 dias.;16;OK;;prints/073_1094.png;2026-10-13;W13|FERR|151
+74;1094;LIMPEZA PREDIAL;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/rodo-max-pop-borrachoo-60cm-2-prod.html;https://www.distribuidoracaue.com.br/rodo-max-pop-borrachoo-60cm-2-prod.html;Rodo Max Pop Borrachão - 60cm;;;;Preço sob consulta/orçamento;15;COLUNA P;;;2026-10-13;W13|FERR|152
+75;1094;LIMPEZA PREDIAL;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/limpeza/rodo-60cm-duplo-condor-com-cabo-plastificado-1128;https://www.novalimp.com.br/limpeza/rodo-60cm-duplo-condor-com-cabo-plastificado-1128;Rodo 60Cm Duplo Condor com Cabo 120 cm Plastificado;86.77;;;;17;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|FERR|153
+76;1095;LIMPEZA PREDIAL;Gimba;54.651.716/0011-50;SP;https://www.gimba.com.br/vassouras-e-rodos/rodo-limpa-vidros-nobre-com-cabo-plastico-1-un/?PID=71996;https://www.gimba.com.br/vassouras-e-rodos/rodo-limpa-vidros-nobre-com-cabo-plastico-1-un/?PID=71996;Rodo Limpa Vidros Nobre com Cabo Plástico 1 UN;66.49;;77.67;Opção mais barata para o CEP 74933-130: Valor: R$ 77,67 Prazo: Entrega em até 7 dia(s) úteis após liberação do pedido!;14;OK;;prints/076_1095.png;2026-10-13;W13|FERR|155
+77;1097;LIMPEZA PREDIAL;Cauê Distribuidora;34.853.905/0001-26;SP;https://www.distribuidoracaue.com.br/rodo-de-pia-plastico-2-prod.html;https://www.distribuidoracaue.com.br/rodo-de-pia-plastico-2-prod.html;Rodo De Pia Plástico;;;;Preço sob consulta/orçamento;14;COLUNA P;;;2026-10-13;W13|FERR|160
+78;1098;LIMPEZA PREDIAL;Anhanguera Ferramentas;00.565.813/0001-29;SP;https://www.anhangueraferramentas.com.br/vassoura-de-piacava-sintetica-e-madeira-com-4-fileiras-6355000200-vonder-109489;https://www.anhangueraferramentas.com.br/produto/vassoura-de-piacava-sintetica-e-madeira-com-4-fileiras-6355000200-vonder-109489;Vassoura de Piaçava Sintética e Madeira com 4 Fileiras 6355000200 VONDER;25.33;;;;0;SEM FRETE;"erro ao calcular frete: Locator.click: Timeout 45000ms exceeded.
+Call log:
+  - waiting for locator(""input[name*='cep' i]"").first
+    - locator resolved to <input type=""text"" maxlength=""9"" class=""textbox"" id=""shipping-quote-cep"" onkeyup=""maskCep(this)"" name=""shipping-quote-cep"" placeholder=""informe seu cep""/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  21 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+ (print em diagnostico/)";;2026-10-13;W13|FERR|166
+79;1100;LIMPEZA PREDIAL;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/limpeza/vassoura-pelo-30-cm-class-sem-cabo-madeira;https://www.novalimp.com.br/limpeza/vassoura-pelo-30-cm-class-sem-cabo-madeira;Vassoura de Pelo Sintético DSR 30cm Base de Madeira Sem Cabo;7.20;;;;21;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|FERR|174
+80;1100;LIMPEZA PREDIAL;Guarulhos Embalagens;30.679.614/0001-02;SP;https://www.guarulhosembalagens.com.br/produtos-de-limpeza/vassoura-pelo-sintetico-plastica-30-cm;https://www.guarulhosembalagens.com.br/produtos-de-limpeza/vassoura-pelo-sintetico-plastica-30-cm;Vassoura Pelo Sintético Plástica 30 cm;12.50;;;;21;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|FERR|175
+81;1101;LIMPEZA PREDIAL;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/recem-chagedos/vassoura-pelo-40cm-b-plast-ccabo-plast;https://www.novalimp.com.br/recem-chagedos/vassoura-pelo-40cm-b-plast-ccabo-plast;Vassoura de Pelo 40cm com Cabo Plástico;17.68;;;;18;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|FERR|178
+82;1103;LIMPEZA PREDIAL;Gimba;54.651.716/0011-50;SP;https://www.gimba.com.br/vassouras-e-rodos/vassoura-limpa-teto-mm-vassouras-nylon-cb-2-metros-1-un/?PID=207242;https://www.gimba.com.br/vassouras-e-rodos/vassoura-limpa-teto-mm-vassouras-nylon-cb-2-metros-1-un/?PID=207242;Vassoura Limpa Teto MM Vassouras Nylon CB 2 Metros 1 UN;34.90;;77.47;Opção mais barata para o CEP 74933-130: Valor: R$ 77,47 Prazo: Entrega em até 7 dia(s) úteis após liberação do pedido!;14;OK;;prints/082_1103.png;2026-10-13;W13|FERR|184
+83;1104;EPI / UNIFORME;TR Distribuidora;14.213.841/0001-91;PR;https://www.trepis.com.br/uniforme-camiseta-manga-longa-confec-em-poliviscose-com-faixa-refletiva;https://www.trepis.com.br/uniforme-camiseta-manga-longa-confec-em-poliviscose-com-faixa-refletiva;Camiseta de Manga Longa em Poliviscose com Faixa Refletiva Uniforme de Segurança;50.21;;;;12;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|EPIS|2
+84;1105;EPI / UNIFORME;TR Distribuidora;14.213.841/0001-91;PR;https://www.trepis.com.br/uniforme-calca-em-brim-3-bolsos;https://www.trepis.com.br/uniforme-calca-em-brim-3-bolsos;Calça em Brim com 3 Bolsos;90.96;;;;12;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|EPIS|4
+85;1105;EPI / UNIFORME;PISEBEM;11.156.413/0001-86;PR;https://www.pisebem.com.br/calca-uniforme-brim-cinza-luvas-koch-157348;https://www.pisebem.com.br/calca-uniforme-brim-cinza-luvas-koch-157348;Calça Uniforme Brim Cinza Luvas Koch;109.10;;;;11;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|EPIS|5
+86;1106;EPI / UNIFORME;EPI's Online;22.712.006/0001-24;SP;https://www.episonline.com.br/meia-termica-com-algodao-preta-prevemax-p9039;https://www.episonline.com.br/meia-termica-com-algodao-preta-prevemax-p9039;Meia Térmica com Algodão Preta - Prevemax;7.37;;;Frete grátis para o CEP 74933-130;12;OK;;prints/086_1106.png;2026-10-13;W13|EPIS|6
+87;1107;EPI / UNIFORME;Fast EPIs;22.966.860/0001-17;SP;https://www.fastepis.com.br/calcados/sapatos-de-seguranca/sapato-de-seguranca-ocupacional/sapato-de-seguranca-ocupacional-antiderrapante-impermeavel-monseg-classic-ca-42726;https://www.fastepis.com.br/calcados/sapatos-de-seguranca/sapato-de-seguranca-ocupacional/sapato-de-seguranca-ocupacional-antiderrapante-impermeavel-monseg-classic-ca-42726;Sapato de Segurança Ocupacional Antiderrapante Impermeável Monseg Classic CA 42726;65.00;;;;0;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|EPIS|8
+88;1107;EPI / UNIFORME;TR Distribuidora;14.213.841/0001-91;PR;https://www.trepis.com.br/tenis-impermeavel-solado-borracha-antiderrapante-confec-em-eva-sem-biqueira-bb80-c-a-37212;https://www.trepis.com.br/tenis-impermeavel-solado-borracha-antiderrapante-confec-em-eva-sem-biqueira-bb80-c-a-37212;Tênis Impermeável com Solado Antiderrapante BB80 C.A. 37212;128.64;;;;0;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|EPIS|9
+89;1109;EPI / UNIFORME;Anhanguera Ferramentas;00.565.813/0001-29;SP;https://www.anhangueraferramentas.com.br/luva-de-seguranca-de-pvc-35cm-palma-aspera-ca-21420-kalipso-141422;https://www.anhangueraferramentas.com.br/produto/luva-de-seguranca-de-pvc-35cm-palma-aspera-ca-21420-kalipso-141422;Luva de Segurança de PVC 35CM Palma Áspera CA 21420 KALIPSO;16.11;;;;13;SEM FRETE;"erro ao calcular frete: Locator.click: Timeout 45000ms exceeded.
+Call log:
+  - waiting for locator(""input[name*='cep' i]"").first
+    - locator resolved to <input type=""text"" maxlength=""9"" class=""textbox"" id=""shipping-quote-cep"" onkeyup=""maskCep(this)"" name=""shipping-quote-cep"" placeholder=""informe seu cep""/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  21 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+ (print em diagnostico/)";;2026-10-13;W13|EPIS|17
+90;1109;EPI / UNIFORME;EPI's Online;22.712.006/0001-24;SP;https://www.episonline.com.br/luva-pvc-volk-46-cm-verde-palma-aspera-2151-1-p3977;https://www.episonline.com.br/luva-pvc-volk-46-cm-verde-palma-aspera-2151-1-p3977;Luva PVC Volk 46 cm Verde Palma Áspera;16.90;;;Frete grátis para o CEP 74933-130;13;OK;;prints/090_1109.png;2026-10-13;W13|EPIS|19
+91;1110;EPI / UNIFORME;Calçados para Trabalhar;30.420.742/0002-18;MG;https://www.calcadosparatrabalhar.com.br/luva-latex-amarela-forrada-multiuso-limpeza-louca-volk.html;https://www.calcadosparatrabalhar.com.br/luva-latex-amarela-forrada-multiuso-limpeza-louca-volk.html;;3.60;3.87;;;0;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|EPIS|21
+92;1110;EPI / UNIFORME;Nova Limp;04.681.311/0001-14;SP;https://www.novalimp.com.br/epis/luva-light-azul-forrada-sanro-m;https://www.novalimp.com.br/epis/luva-light-azul-forrada-sanro-m;Luva de Látex Sanro Light Forrada Azul;4.66;;;;16;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|EPIS|22
+93;1110;EPI / UNIFORME;Palácio das Ferramentas;68.422.419/0001-75;SP;https://palaciodasferramentas.com.br/luva-de-borracha-latex-forrada-amarela-nove54;https://palaciodasferramentas.com.br/luva-de-borracha-latex-forrada-amarela-nove54;Luva de Borracha / Latex Forrada Amarela NOVE54;5.30;;;;16;SEM FRETE;página do produto sem calculadora de frete (print em diagnostico/);;2026-10-13;W13|EPIS|23
+94;1110;EPI / UNIFORME;TR Distribuidora;14.213.841/0001-91;PR;https://www.trepis.com.br/luva-em-latex-natural-modelo-verniz-silver-forrada-ions-prata-riscos-mecanicos-e-quimicos-c-a-16312;https://www.trepis.com.br/luva-em-latex-natural-modelo-verniz-silver-forrada-ions-prata-riscos-mecanicos-e-quimicos-c-a-16312;Luva em Látex Natural Modelo Verniz Silver Forrada Ions Prata C.A. 16312;7.26;;;;16;SEM FRETE;nenhuma opção de frete encontrada após informar o CEP (print em diagnostico/);;2026-10-13;W13|EPIS|24
+95;1112;EPI / UNIFORME;Dimensional Brasil Solucoes Ltda;06.913.480/0001-68;SP;https://www.dimensional.com.br/luva-algodaopoliester-preta-pigmentada-tamanho-9-tatex-021123-kalipso/p;https://www.dimensional.com.br/luva-algodaopoliester-preta-pigmentada-tamanho-9-tatex-021123-kalipso/p;Luva Algodao/Poliester Preta Pigmentada Tatex 02.11.2.3 Tamanho 9 Kalipso;2.09;;52.84;Opção mais barata para o CEP 74933-130: Transportadora Em até 6 dias úteis R$ 52,84;16;OK;;prints/095_1112.png;2026-10-13;W13|EPIS|30
+96;1112;EPI / UNIFORME;Anhanguera Ferramentas;00.565.813/0001-29;SP;https://www.anhangueraferramentas.com.br/luva-tricotada-algodao-pigmentada-branca-ca-46575-cottonflex-da10300-danny-141471;https://www.anhangueraferramentas.com.br/produto/luva-tricotada-algodao-pigmentada-branca-ca-46575-cottonflex-da10300-danny-141471;Luva Tricotada Algodão Pigmentada Branca CA 46575 COTTONFLEX DA10300 DANNY;3.12;;;;16;SEM FRETE;"erro ao calcular frete: Locator.click: Timeout 45000ms exceeded.
+Call log:
+  - waiting for locator(""input[name*='cep' i]"").first
+    - locator resolved to <input type=""text"" maxlength=""9"" class=""textbox"" id=""shipping-quote-cep"" onkeyup=""maskCep(this)"" name=""shipping-quote-cep"" placeholder=""informe seu cep""/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  21 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+ (print em diagnostico/)";;2026-10-13;W13|EPIS|31
+97;1112;EPI / UNIFORME;EPI's Online;22.712.006/0001-24;SP;https://www.episonline.com.br/luva-de-algodao-pigmentada-cotton-volk-smart-p9346;https://www.episonline.com.br/luva-de-algodao-pigmentada-cotton-volk-smart-p9346;Luva de algodão Pigmentada Cotton Volk Smart;2.29;;;Frete grátis para o CEP 74933-130;16;OK;;prints/097_1112.png;2026-10-13;W13|EPIS|32
+98;1112;EPI / UNIFORME;Calçados para Trabalhar;30.420.742/0002-18;MG;https://www.calcadosparatrabalhar.com.br/luva-hand-tricotada-pigmentada-branca-hx008-43388-handex.html;https://www.calcadosparatrabalhar.com.br/luva-hand-tricotada-pigmentada-branca-hx008-43388-handex.html;;2.00;2.15;16.56;Opção mais barata para o CEP 74933-130: Total Express - Em média 6 dia(s) útil(eis) - R$ 16,56 Sedex - Em média 3 dia(s) útil(eis) -;0;OK;CONFERIR: a regra de aderência recusa o nome do produto;prints/098_1112.png;2026-10-13;W13|EPIS|33
+99;1117;EPI / UNIFORME;Palácio das Ferramentas;68.422.419/0001-75;SP;https://palaciodasferramentas.com.br/capa-de-chuva-pvc-forrada-tamanho-gg-wps0612-delta-plus;https://palaciodasferramentas.com.br/capa-de-chuva-pvc-forrada-tamanho-gg-wps0612-delta-plus;Capa de Chuva PVC Forrada Tamanho GG WPS0612 DELTA PLUS;28.50;;;;14;SEM FRETE;página do produto sem calculadora de frete (print em diagnostico/);;2026-10-13;W13|EPIS|53
+100;1117;EPI / UNIFORME;Anhanguera Ferramentas;00.565.813/0001-29;SP;https://www.anhangueraferramentas.com.br/capa-de-chuva-em-pvc-laminado-sem-forro-transparente-ca-11040-vonder-129009;https://www.anhangueraferramentas.com.br/produto/capa-de-chuva-em-pvc-laminado-sem-forro-transparente-ca-11040-vonder-129009;Capa de Chuva em PVC Laminado sem Forro Transparente Tamanho GG 7012440200 VONDER;35.44;;;;14;SEM FRETE;"erro ao calcular frete: Locator.click: Timeout 45000ms exceeded.
+Call log:
+  - waiting for locator(""input[name*='cep' i]"").first
+    - locator resolved to <input type=""text"" maxlength=""9"" class=""textbox"" id=""shipping-quote-cep"" onkeyup=""maskCep(this)"" name=""shipping-quote-cep"" placeholder=""informe seu cep""/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  21 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <iframe></iframe> from <div dintargetformid=""32"" id=""dinTargetFormDialog32"" class=""dinTargetFormDialog popover"">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div id=""dinTargetFormBackground""></div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+ (print em diagnostico/)";;2026-10-13;W13|EPIS|54

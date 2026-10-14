@@ -142,3 +142,39 @@ def test_produto_recusado_na_revisao_nao_volta(tmp_path):
     insumo = interpretar("1110", "X", "LUVA DE LÁTEX FORRADA - CANO CURTO; TAMANHOS VARIADOS.")
     escolhido = coletor._escolher_produto(LojaFalsa(), insumo)
     assert escolhido.url == "https://loja.com.br/luva-latex"
+
+
+def test_teor_faixa_e_atributo_texto():
+    """Regras de 13/10/2026: teor, faixa só nas pontas e atributo de texto obrigatório."""
+    i = interpretar("1001", "X", "ÁLCOOL ETÍLICO 46,2° LÍQUIDO - USO GERAL.", "GALÃO 5 L")
+    assert pontuar(i, "Álcool Líquido Audax 46° Facilita 5L 1 UN") > 0      # 46° vale (decisão)
+    assert pontuar(i, "Álcool Etílico Hidratado 46,2 INPM 5 Litros") > 0
+    assert pontuar(i, "Álcool líquido 70º - Tupi - 5 Litros") == 0          # outro teor
+    assert pontuar(i, "Álcool Líquido Coperalcool 5L") > 0                  # sem teor: conferência
+    i = interpretar("1000", "X", "ÁGUA SANITÁRIA - HIPOCLORITO DE SÓDIO, TEOR DE CLORO ATIVO "
+                    "ENTRE 2% E 2,5%; USO GERAL.", "GALÃO 5 L")
+    assert i.teores == {2.0, 2.5}
+    assert pontuar(i, "Água Sanitária 2,5% 5L") > 0
+    assert pontuar(i, "Água sanitária 1% 5L") == 0
+    i = interpretar("1055", "X", "SODA CÁUSTICA - EM ESCAMAS, CONCENTRAÇÃO MÍNIMA DE 96%; EMBALAGEM.")
+    assert pontuar(i, "Soda Cáustica Escamas 99% 1kg") > 0
+    assert pontuar(i, "Soda Cáustica 50% 1kg") == 0
+    i = interpretar("1032", "X", "PANO DE CHÃO ALVEJADO - 100% ALGODÃO; APROXIMADAMENTE 60 X 80 CM.")
+    assert not i.teores                                                     # 100% algodão não é teor
+    i = interpretar("1005", "X", "AROMATIZADOR/DESODORIZADOR DE AMBIENTES – AEROSSOL - COM FRAGRÂNCIA.",
+                    "FRASCO 300–400 ML")
+    assert pontuar(i, "Aromatizador de Ambientes Aerossol 300 ml") > 0     # ponta da faixa
+    assert pontuar(i, "Desodorizador de Ambientes Spray 400ml") > 0
+    assert pontuar(i, "Desodorizador de Ambientes Aerossol 360ml") == 0    # meio da faixa
+    assert pontuar(i, "Aromatizador de Ambientes Difusor Varetas 400ml") == 0  # não é aerossol
+    i = interpretar("1066", "X", "LIXEIRA PLÁSTICA – 6 A 8 L - COM TAMPA E PEDAL.")
+    assert pontuar(i, "Lixeira Plástica com Pedal 6 Litros") > 0
+    assert pontuar(i, "Lixeira Plástica com Pedal 7L") == 0
+    i = interpretar("1089", "X", "PÁ COLETORA DE LIXO – CABO LONGO - COM TAMPA.")
+    assert pontuar(i, "Pá Coletora de Lixo Cabo Longo") > 0
+    assert pontuar(i, "Pá Coletora de Lixo Plástica") > 0                  # 1089: confere no print
+    i = interpretar("1005", "X", "AROMATIZADOR DE AMBIENTES – AEROSSOL - COM FRAGRÂNCIA.",
+                    "FRASCO 300–400 ML")
+    assert pontuar(i, "Aromatizador de Ambientes Gel 400ml") == 0          # demais: obrigatório
+    i = interpretar("1091", "X", "PLACA SINALIZADORA – BANHEIRO INTERDITADO - DOBRÁVEL/PORTÁTIL.")
+    assert pontuar(i, "Placa Sinalizadora Banheiro Fora de Uso") > 0

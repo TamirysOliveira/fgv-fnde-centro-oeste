@@ -23,6 +23,9 @@ Exemplos (na raiz do repositório):
     python scripts/raspar_precos_centro_oeste.py --ids 1000 --ver-navegador
     python scripts/raspar_precos_centro_oeste.py --ids 1105 1108 --fornecedor singular
     python scripts/raspar_precos_centro_oeste.py            (todos os insumos de produto)
+    python scripts/raspar_precos_centro_oeste.py --completar-merge --ver-navegador
+        (só os insumos com vaga no fnde_resultado_merge, pulando os fornecedores que
+        já estão no insumo; depois: python scripts/montar_merge.py importar-robo)
 """
 
 from __future__ import annotations
@@ -42,6 +45,20 @@ from fgv_precos.raspagem.config_raspagem import PRECOS_POR_UF
 log = logging.getLogger("raspar_precos")
 
 
+def ler_situacao_merge() -> dict[str, tuple[int, set[str]]]:
+    """{ID FGV: (preços no merge, CNPJs com preço)} lido da Entrega montada."""
+    from fgv_precos.merge.montagem import DIR_ENTREGA, GRUPOS, NOME_SAIDA
+    from fgv_precos.merge.regras import somente_digitos
+
+    situacao: dict[str, tuple[int, set[str]]] = {}
+    for pasta, _ in GRUPOS.values():
+        df = pd.read_excel(DIR_ENTREGA / pasta / NOME_SAIDA, dtype=str).fillna("")
+        for _, r in df[df["Link aproveitável"] == ""].iterrows():
+            n, cnpjs = situacao.get(r["Código FGV"], (0, set()))
+            situacao[r["Código FGV"]] = (n + 1, cnpjs | {somente_digitos(r["CNPJ"])})
+    return situacao
+
+
 def montar_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -51,6 +68,9 @@ def montar_parser() -> argparse.ArgumentParser:
                              "(ex.: singular) ou com este CNPJ")
     parser.add_argument("--ver-navegador", action="store_true",
                         help="mostra o navegador trabalhando (útil para conferir)")
+    parser.add_argument("--completar-merge", action="store_true",
+                        help="busca só o que falta para 5 preços no fnde_resultado_merge da Entrega, "
+                             "pulando os fornecedores que já têm preço no insumo")
     parser.add_argument("-v", "--verbose", action="store_true", help="log em nível DEBUG")
     return parser
 
@@ -67,11 +87,21 @@ def main(argv: list[str] | None = None) -> int:
             return 1
         log.info("Insumos a coletar: %s", [i.id_fgv for i in insumos])
 
+        situacao_merge = ler_situacao_merge() if args.completar_merge else {}
+        if args.completar_merge:
+            insumos = [i for i in insumos if situacao_merge.get(i.id_fgv, (0, set()))[0] < PRECOS_POR_UF]
+            log.info("Completar o merge: %d insumos com vaga.", len(insumos))
         with Coletor(headless=not args.ver_navegador) as coletor:
             for n, insumo in enumerate(insumos, start=1):
                 log.info("--- %d/%d", n, len(insumos))
                 try:
-                    coletas, resumo = coletor.coletar_insumo(insumo, args.fornecedor)
+                    if args.completar_merge:
+                        tem, cnpjs = situacao_merge.get(insumo.id_fgv, (0, set()))
+                        coletas, resumo = coletor.coletar_insumo(
+                            insumo, args.fornecedor, meta=PRECOS_POR_UF - tem,
+                            pular_cnpjs=frozenset(cnpjs))
+                    else:
+                        coletas, resumo = coletor.coletar_insumo(insumo, args.fornecedor)
                     saida.gravar(coletas, [insumo.id_fgv])
                     saida.gravar_resumo(pd.DataFrame(resumo, columns=COLUNAS_RESUMO),
                                         [insumo.id_fgv])

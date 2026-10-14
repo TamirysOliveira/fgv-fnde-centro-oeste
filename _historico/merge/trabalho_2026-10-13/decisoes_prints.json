@@ -1,0 +1,1652 @@
+[
+{
+"idx": 0,
+"pref": "EPIS",
+"linha": 3,
+"id": "1105",
+"empresa": "Multiseg Comercio de Equipamentos de Seguranca Ltda",
+"status": "SELECIONADA",
+"preco_regra": 83.1,
+"motivo": ""
+},
+{
+"idx": 1,
+"pref": "EPIS",
+"linha": 6,
+"id": "1106",
+"empresa": "EPI's Online",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Nome do produto encoberto pelo menu do site no print"
+},
+{
+"idx": 2,
+"pref": "EPIS",
+"linha": 10,
+"id": "1108",
+"empresa": "Dutra Máquinas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Planilha usa o preço riscado ('De'); o preço atual sem PIX não aparece no print"
+},
+{
+"idx": 3,
+"pref": "EPIS",
+"linha": 11,
+"id": "1108",
+"empresa": "A Master EPI",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 4,
+"pref": "EPIS",
+"linha": 12,
+"id": "1108",
+"empresa": "Panan",
+"status": "SELECIONADA",
+"preco_regra": 86.9,
+"motivo": ""
+},
+{
+"idx": 5,
+"pref": "EPIS",
+"linha": 13,
+"id": "1108",
+"empresa": "Multiseg Comercio de Equipamentos de Seguranca Ltda",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 6,
+"pref": "EPIS",
+"linha": 15,
+"id": "1109",
+"empresa": "Goiás Ferramentas",
+"status": "SELECIONADA",
+"preco_regra": 23.33,
+"motivo": ""
+},
+{
+"idx": 7,
+"pref": "EPIS",
+"linha": 16,
+"id": "1109",
+"empresa": "Fermarcs Ferramentas",
+"status": "SELECIONADA",
+"preco_regra": 24.9,
+"motivo": ""
+},
+{
+"idx": 8,
+"pref": "EPIS",
+"linha": 18,
+"id": "1109",
+"empresa": "Marchio",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 9,
+"pref": "EPIS",
+"linha": 17,
+"id": "1109",
+"empresa": "Anhanguera Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print reduzido: nome, preço e frete ilegíveis"
+},
+{
+"idx": 10,
+"pref": "EPIS",
+"linha": 19,
+"id": "1109",
+"empresa": "EPI's Online",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Nome do produto encoberto pelo menu do site no print"
+},
+{
+"idx": 11,
+"pref": "EPIS",
+"linha": 25,
+"id": "1111",
+"empresa": "Goiás Ferramentas",
+"status": "SELECIONADA",
+"preco_regra": 10.88,
+"motivo": ""
+},
+{
+"idx": 12,
+"pref": "EPIS",
+"linha": 26,
+"id": "1111",
+"empresa": "EPI's Online",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Nome do produto encoberto pelo menu do site no print"
+},
+{
+"idx": 13,
+"pref": "EPIS",
+"linha": 28,
+"id": "1111",
+"empresa": "A Master EPI",
+"status": "SELECIONADA",
+"preco_regra": 10.5,
+"motivo": ""
+},
+{
+"idx": 14,
+"pref": "EPIS",
+"linha": 27,
+"id": "1111",
+"empresa": "Dutra Máquinas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Planilha usa o preço riscado ('De'); o preço atual sem PIX não aparece no print"
+},
+{
+"idx": 15,
+"pref": "EPIS",
+"linha": 29,
+"id": "1111",
+"empresa": "Frigo",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Produto não corresponde: luva de forno, não luva para produtos químicos"
+},
+{
+"idx": 16,
+"pref": "EPIS",
+"linha": 31,
+"id": "1112",
+"empresa": "Anhanguera Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print reduzido: nome, preço e frete ilegíveis"
+},
+{
+"idx": 17,
+"pref": "EPIS",
+"linha": 32,
+"id": "1112",
+"empresa": "EPI's Online",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Nome do produto encoberto pelo menu do site no print"
+},
+{
+"idx": 18,
+"pref": "EPIS",
+"linha": 33,
+"id": "1112",
+"empresa": "Calçados para Trabalhar",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP errado no print (74933-310)"
+},
+{
+"idx": 19,
+"pref": "EPIS",
+"linha": 34,
+"id": "1112",
+"empresa": "TR Distribuidora",
+"status": "SELECIONADA",
+"preco_regra": 2.82,
+"motivo": ""
+},
+{
+"idx": 20,
+"pref": "EPIS",
+"linha": 40,
+"id": "1114",
+"empresa": "Goiás Ferramentas",
+"status": "SELECIONADA",
+"preco_regra": 1.9,
+"motivo": ""
+},
+{
+"idx": 21,
+"pref": "EPIS",
+"linha": 41,
+"id": "1114",
+"empresa": "Fermarcs Ferramentas",
+"status": "SELECIONADA",
+"preco_regra": 2.99,
+"motivo": ""
+},
+{
+"idx": 22,
+"pref": "EPIS",
+"linha": 42,
+"id": "1115",
+"empresa": "Goiás Ferramentas",
+"status": "SELECIONADA",
+"preco_regra": 2.06,
+"motivo": ""
+},
+{
+"idx": 23,
+"pref": "EPIS",
+"linha": 44,
+"id": "1115",
+"empresa": "PISEBEM",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print só mostra o preço com PIX; o preço sem desconto não aparece"
+},
+{
+"idx": 24,
+"pref": "EPIS",
+"linha": 45,
+"id": "1115",
+"empresa": "Astro Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Pop-up cobre a página; CEP e fretes do print não batem com a planilha"
+},
+{
+"idx": 25,
+"pref": "EPIS",
+"linha": 46,
+"id": "1115",
+"empresa": "Multiseg Comercio de Equipamentos de Seguranca Ltda",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 26,
+"pref": "EPIS",
+"linha": 48,
+"id": "1116",
+"empresa": "PISEBEM",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print só mostra o preço com PIX; o preço sem desconto não aparece"
+},
+{
+"idx": 27,
+"pref": "EPIS",
+"linha": 49,
+"id": "1116",
+"empresa": "Multiseg Comercio de Equipamentos de Seguranca Ltda",
+"status": "SELECIONADA",
+"preco_regra": 9.87,
+"motivo": ""
+},
+{
+"idx": 28,
+"pref": "EPIS",
+"linha": 52,
+"id": "1117",
+"empresa": "Loja do EPI",
+"status": "SELECIONADA",
+"preco_regra": 20.91,
+"motivo": ""
+},
+{
+"idx": 29,
+"pref": "EPIS",
+"linha": 53,
+"id": "1117",
+"empresa": "Palácio das Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Frete não aparece no print (banner de cookies por cima)"
+},
+{
+"idx": 30,
+"pref": "EPIS",
+"linha": 54,
+"id": "1117",
+"empresa": "Anhanguera Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print reduzido: nome, preço e frete ilegíveis"
+},
+{
+"idx": 31,
+"pref": "EPIS",
+"linha": 56,
+"id": "1117",
+"empresa": "A Master EPI",
+"status": "SELECIONADA",
+"preco_regra": 18.0,
+"motivo": ""
+},
+{
+"idx": 32,
+"pref": "EPIS",
+"linha": 55,
+"id": "1117",
+"empresa": "Dutra Máquinas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Planilha usa o preço riscado ('De'); o preço atual sem PIX não aparece no print"
+},
+{
+"idx": 33,
+"pref": "EPIS",
+"linha": 57,
+"id": "1118",
+"empresa": "Fermarcs Ferramentas",
+"status": "SELECIONADA",
+"preco_regra": 17.5,
+"motivo": ""
+},
+{
+"idx": 34,
+"pref": "EPIS",
+"linha": 60,
+"id": "1118",
+"empresa": "A Master EPI",
+"status": "SELECIONADA",
+"preco_regra": 12.0,
+"motivo": ""
+},
+{
+"idx": 35,
+"pref": "EPIS",
+"linha": 62,
+"id": "1119",
+"empresa": "Gimba",
+"status": "SELECIONADA",
+"preco_regra": 18.99,
+"motivo": ""
+},
+{
+"idx": 36,
+"pref": "EPIS",
+"linha": 63,
+"id": "1119",
+"empresa": "Palácio das Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Produto não corresponde: FPS 60; o insumo é FPS 30 ou 50"
+},
+{
+"idx": 37,
+"pref": "EPIS",
+"linha": 65,
+"id": "1119",
+"empresa": "PISEBEM",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Produto não corresponde: FPS 60; o insumo é FPS 30 ou 50"
+},
+{
+"idx": 38,
+"pref": "EPIS",
+"linha": 64,
+"id": "1119",
+"empresa": "Dutra Máquinas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Produto não corresponde: FPS 60; o insumo é FPS 30 ou 50"
+},
+{
+"idx": 39,
+"pref": "EPIS",
+"linha": 66,
+"id": "1119",
+"empresa": "Calçados para Trabalhar",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Produto não corresponde: FPS 60; o insumo é FPS 30 ou 50"
+},
+{
+"idx": 40,
+"pref": "MATE",
+"linha": 5,
+"id": "1000",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 17.24,
+"motivo": ""
+},
+{
+"idx": 41,
+"pref": "MATE",
+"linha": 2,
+"id": "1000",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 42,
+"pref": "MATE",
+"linha": 6,
+"id": "1000",
+"empresa": "Guarulhos Embalagens",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 43,
+"pref": "MATE",
+"linha": 3,
+"id": "1000",
+"empresa": "Melhoramentos Higiene",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 44,
+"pref": "MATE",
+"linha": 8,
+"id": "1002",
+"empresa": "Guarulhos Embalagens",
+"status": "SELECIONADA",
+"preco_regra": 38.0,
+"motivo": ""
+},
+{
+"idx": 45,
+"pref": "MATE",
+"linha": 15,
+"id": "1003",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 49.88,
+"motivo": ""
+},
+{
+"idx": 46,
+"pref": "MATE",
+"linha": 25,
+"id": "1007",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 37.22,
+"motivo": ""
+},
+{
+"idx": 47,
+"pref": "MATE",
+"linha": 27,
+"id": "1007",
+"empresa": "Anhanguera Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print reduzido: nome, preço e frete ilegíveis"
+},
+{
+"idx": 48,
+"pref": "MATE",
+"linha": 31,
+"id": "1010",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 18.6,
+"motivo": ""
+},
+{
+"idx": 49,
+"pref": "MATE",
+"linha": 33,
+"id": "1010",
+"empresa": "Gimba",
+"status": "SELECIONADA",
+"preco_regra": 63.29,
+"motivo": ""
+},
+{
+"idx": 50,
+"pref": "MATE",
+"linha": 34,
+"id": "1010",
+"empresa": "Profissional da Limpeza",
+"status": "SELECIONADA",
+"preco_regra": 149.0,
+"motivo": ""
+},
+{
+"idx": 51,
+"pref": "MATE",
+"linha": 37,
+"id": "1011",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 262.44,
+"motivo": ""
+},
+{
+"idx": 52,
+"pref": "MATE",
+"linha": 40,
+"id": "1012",
+"empresa": "Cauê Distribuidora",
+"status": "SELECIONADA",
+"preco_regra": 4.31,
+"motivo": ""
+},
+{
+"idx": 53,
+"pref": "MATE",
+"linha": 41,
+"id": "1012",
+"empresa": "Melhoramentos Higiene",
+"status": "SELECIONADA",
+"preco_regra": 2.0,
+"motivo": ""
+},
+{
+"idx": 54,
+"pref": "MATE",
+"linha": 48,
+"id": "1014",
+"empresa": "Palácio das Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Frete não aparece no print (banner de cookies por cima)"
+},
+{
+"idx": 55,
+"pref": "MATE",
+"linha": 47,
+"id": "1014",
+"empresa": "Dutra Máquinas",
+"status": "SELECIONADA",
+"preco_regra": 98.9,
+"motivo": ""
+},
+{
+"idx": 56,
+"pref": "MATE",
+"linha": 49,
+"id": "1014",
+"empresa": "Profissional da Limpeza",
+"status": "SELECIONADA",
+"preco_regra": 175.0,
+"motivo": ""
+},
+{
+"idx": 57,
+"pref": "MATE",
+"linha": 52,
+"id": "1015",
+"empresa": "Dutra Máquinas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Produto não corresponde: desincrustante alcalino; o insumo é ácido"
+},
+{
+"idx": 58,
+"pref": "MATE",
+"linha": 58,
+"id": "1016",
+"empresa": "Melhoramentos Higiene",
+"status": "SELECIONADA",
+"preco_regra": 3.35,
+"motivo": ""
+},
+{
+"idx": 59,
+"pref": "MATE",
+"linha": 56,
+"id": "1016",
+"empresa": "Cauê Distribuidora",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 60,
+"pref": "MATE",
+"linha": 60,
+"id": "1017",
+"empresa": "ZIP Distribuidora",
+"status": "SELECIONADA",
+"preco_regra": 24.9,
+"motivo": ""
+},
+{
+"idx": 61,
+"pref": "MATE",
+"linha": 63,
+"id": "1017",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 62,
+"pref": "MATE",
+"linha": 67,
+"id": "1019",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 1.99,
+"motivo": ""
+},
+{
+"idx": 63,
+"pref": "MATE",
+"linha": 71,
+"id": "1019",
+"empresa": "Guarulhos Embalagens",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 64,
+"pref": "MATE",
+"linha": 68,
+"id": "1019",
+"empresa": "Higienize",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 65,
+"pref": "MATE",
+"linha": 76,
+"id": "1020",
+"empresa": "Profissional da Limpeza",
+"status": "SELECIONADA",
+"preco_regra": 18.9,
+"motivo": ""
+},
+{
+"idx": 66,
+"pref": "MATE",
+"linha": 73,
+"id": "1020",
+"empresa": "Melhoramentos Higiene",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 67,
+"pref": "MATE",
+"linha": 77,
+"id": "1021",
+"empresa": "Melhoramentos Higiene",
+"status": "SELECIONADA",
+"preco_regra": 23.9,
+"motivo": ""
+},
+{
+"idx": 68,
+"pref": "MATE",
+"linha": 87,
+"id": "1024",
+"empresa": "Profissional da Limpeza",
+"status": "SELECIONADA",
+"preco_regra": 2.49,
+"motivo": ""
+},
+{
+"idx": 69,
+"pref": "MATE",
+"linha": 88,
+"id": "1024",
+"empresa": "Cauê Distribuidora",
+"status": "SELECIONADA",
+"preco_regra": 6.0,
+"motivo": ""
+},
+{
+"idx": 70,
+"pref": "MATE",
+"linha": 97,
+"id": "1026",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 71,
+"pref": "MATE",
+"linha": 106,
+"id": "1028",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 4.06,
+"motivo": ""
+},
+{
+"idx": 72,
+"pref": "MATE",
+"linha": 107,
+"id": "1028",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 73,
+"pref": "MATE",
+"linha": 109,
+"id": "1028",
+"empresa": "LF Máquinas e Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print sem preço e/ou sem frete"
+},
+{
+"idx": 74,
+"pref": "MATE",
+"linha": 113,
+"id": "1029",
+"empresa": "LF Máquinas e Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print sem preço e/ou sem frete"
+},
+{
+"idx": 75,
+"pref": "MATE",
+"linha": 122,
+"id": "1032",
+"empresa": "General Clean",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Medida diferente: pano 40x65 cm; o insumo é ~60x80 cm"
+},
+{
+"idx": 76,
+"pref": "MATE",
+"linha": 124,
+"id": "1033",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 77,
+"pref": "MATE",
+"linha": 127,
+"id": "1034",
+"empresa": "PreveOeste",
+"status": "SELECIONADA",
+"preco_regra": 20.9,
+"motivo": ""
+},
+{
+"idx": 78,
+"pref": "MATE",
+"linha": 130,
+"id": "1034",
+"empresa": "Melhoramentos Higiene",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 79,
+"pref": "MATE",
+"linha": 131,
+"id": "1034",
+"empresa": "Cauê Distribuidora",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 80,
+"pref": "MATE",
+"linha": 134,
+"id": "1035",
+"empresa": "Guarulhos Embalagens",
+"status": "SELECIONADA",
+"preco_regra": 33.0,
+"motivo": ""
+},
+{
+"idx": 81,
+"pref": "MATE",
+"linha": 142,
+"id": "1037",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 82,
+"pref": "MATE",
+"linha": 147,
+"id": "1038",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 83,
+"pref": "MATE",
+"linha": 149,
+"id": "1039",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 84,
+"pref": "MATE",
+"linha": 154,
+"id": "1040",
+"empresa": "Cauê Distribuidora",
+"status": "SELECIONADA",
+"preco_regra": 101.99,
+"motivo": ""
+},
+{
+"idx": 85,
+"pref": "MATE",
+"linha": 178,
+"id": "1046",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 86,
+"pref": "MATE",
+"linha": 181,
+"id": "1047",
+"empresa": "Casa do Saco de Lixo",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Preço do print diferente do da planilha (outra variação selecionada)"
+},
+{
+"idx": 87,
+"pref": "MATE",
+"linha": 184,
+"id": "1048",
+"empresa": "Guarulhos Embalagens",
+"status": "SELECIONADA",
+"preco_regra": 83.0,
+"motivo": ""
+},
+{
+"idx": 88,
+"pref": "MATE",
+"linha": 188,
+"id": "1050",
+"empresa": "Cauê Distribuidora",
+"status": "SELECIONADA",
+"preco_regra": 6.48,
+"motivo": ""
+},
+{
+"idx": 89,
+"pref": "MATE",
+"linha": 197,
+"id": "1052",
+"empresa": "Cauê Distribuidora",
+"status": "SELECIONADA",
+"preco_regra": 4.31,
+"motivo": ""
+},
+{
+"idx": 90,
+"pref": "MATE",
+"linha": 198,
+"id": "1052",
+"empresa": "Melhoramentos Higiene",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 91,
+"pref": "MATE",
+"linha": 201,
+"id": "1053",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 92,
+"pref": "MATE",
+"linha": 200,
+"id": "1053",
+"empresa": "Dutra Máquinas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Planilha usa o preço riscado ('De'); o preço atual sem PIX não aparece no print"
+},
+{
+"idx": 93,
+"pref": "MATE",
+"linha": 202,
+"id": "1053",
+"empresa": "LF Máquinas e Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print sem preço e/ou sem frete"
+},
+{
+"idx": 94,
+"pref": "MATE",
+"linha": 205,
+"id": "1054",
+"empresa": "Palácio das Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Frete não aparece no print (banner de cookies por cima)"
+},
+{
+"idx": 95,
+"pref": "MATE",
+"linha": 206,
+"id": "1054",
+"empresa": "Cauê Distribuidora",
+"status": "SELECIONADA",
+"preco_regra": 37.83,
+"motivo": ""
+},
+{
+"idx": 96,
+"pref": "MATE",
+"linha": 204,
+"id": "1054",
+"empresa": "Dutra Máquinas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Planilha usa o preço riscado ('De'); o preço atual sem PIX não aparece no print"
+},
+{
+"idx": 97,
+"pref": "MATE",
+"linha": 211,
+"id": "1055",
+"empresa": "Casa dos Químicos",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Frete da planilha não aparece no print (banner de cookies)"
+},
+{
+"idx": 98,
+"pref": "MATE",
+"linha": 209,
+"id": "1055",
+"empresa": "LF Máquinas e Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print sem preço e/ou sem frete"
+},
+{
+"idx": 99,
+"pref": "FERR",
+"linha": 8,
+"id": "1058",
+"empresa": "Cauê Distribuidora",
+"status": "SELECIONADA",
+"preco_regra": 17.99,
+"motivo": ""
+},
+{
+"idx": 100,
+"pref": "FERR",
+"linha": 9,
+"id": "1058",
+"empresa": "LF Máquinas e Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print sem preço e/ou sem frete"
+},
+{
+"idx": 101,
+"pref": "FERR",
+"linha": 11,
+"id": "1058",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 11.02,
+"motivo": ""
+},
+{
+"idx": 102,
+"pref": "FERR",
+"linha": 12,
+"id": "1059",
+"empresa": "Fermarcs Ferramentas",
+"status": "SELECIONADA",
+"preco_regra": 22.5,
+"motivo": ""
+},
+{
+"idx": 103,
+"pref": "FERR",
+"linha": 13,
+"id": "1059",
+"empresa": "Dutra Máquinas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Planilha usa o preço riscado ('De'); o preço atual sem PIX não aparece no print"
+},
+{
+"idx": 104,
+"pref": "FERR",
+"linha": 14,
+"id": "1059",
+"empresa": "LF Máquinas e Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print sem preço e/ou sem frete"
+},
+{
+"idx": 105,
+"pref": "FERR",
+"linha": 15,
+"id": "1059",
+"empresa": "Anhanguera Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print reduzido: nome, preço e frete ilegíveis"
+},
+{
+"idx": 106,
+"pref": "FERR",
+"linha": 17,
+"id": "1060",
+"empresa": "Cauê Distribuidora",
+"status": "SELECIONADA",
+"preco_regra": 31.61,
+"motivo": ""
+},
+{
+"idx": 107,
+"pref": "FERR",
+"linha": 21,
+"id": "1061",
+"empresa": "Goiás Ferramentas",
+"status": "SELECIONADA",
+"preco_regra": 12.0,
+"motivo": ""
+},
+{
+"idx": 108,
+"pref": "FERR",
+"linha": 22,
+"id": "1061",
+"empresa": "LF Máquinas e Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print sem preço e/ou sem frete"
+},
+{
+"idx": 109,
+"pref": "FERR",
+"linha": 23,
+"id": "1061",
+"empresa": "Cauê Distribuidora",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 110,
+"pref": "FERR",
+"linha": 31,
+"id": "1063",
+"empresa": "Dutra Máquinas",
+"status": "SELECIONADA",
+"preco_regra": 887.77,
+"motivo": ""
+},
+{
+"idx": 111,
+"pref": "FERR",
+"linha": 33,
+"id": "1063",
+"empresa": "Plásticos Ipiranga",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 112,
+"pref": "FERR",
+"linha": 49,
+"id": "1068",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 5.76,
+"motivo": ""
+},
+{
+"idx": 113,
+"pref": "FERR",
+"linha": 54,
+"id": "1069",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 9.49,
+"motivo": ""
+},
+{
+"idx": 114,
+"pref": "FERR",
+"linha": 55,
+"id": "1069",
+"empresa": "PreveOeste",
+"status": "SELECIONADA",
+"preco_regra": 12.9,
+"motivo": ""
+},
+{
+"idx": 115,
+"pref": "FERR",
+"linha": 60,
+"id": "1070",
+"empresa": "Calçados para Trabalhar",
+"status": "SELECIONADA",
+"preco_regra": 42.9,
+"motivo": ""
+},
+{
+"idx": 116,
+"pref": "FERR",
+"linha": 58,
+"id": "1070",
+"empresa": "Gimba",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Frete coberto pelo banner de cookies no print"
+},
+{
+"idx": 117,
+"pref": "FERR",
+"linha": 66,
+"id": "1071",
+"empresa": "Calçados para Trabalhar",
+"status": "SELECIONADA",
+"preco_regra": 46.13,
+"motivo": ""
+},
+{
+"idx": 118,
+"pref": "FERR",
+"linha": 63,
+"id": "1071",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 62.68,
+"motivo": ""
+},
+{
+"idx": 119,
+"pref": "FERR",
+"linha": 65,
+"id": "1071",
+"empresa": "Gimba",
+"status": "SELECIONADA",
+"preco_regra": 49.9,
+"motivo": ""
+},
+{
+"idx": 120,
+"pref": "FERR",
+"linha": 64,
+"id": "1071",
+"empresa": "Cauê Distribuidora",
+"status": "SELECIONADA",
+"preco_regra": 82.17,
+"motivo": ""
+},
+{
+"idx": 121,
+"pref": "FERR",
+"linha": 62,
+"id": "1071",
+"empresa": "Higienize",
+"status": "SELECIONADA",
+"preco_regra": 374.29,
+"motivo": ""
+},
+{
+"idx": 122,
+"pref": "FERR",
+"linha": 70,
+"id": "1072",
+"empresa": "Fermarcs Ferramentas",
+"status": "SELECIONADA",
+"preco_regra": 45.9,
+"motivo": ""
+},
+{
+"idx": 123,
+"pref": "FERR",
+"linha": 69,
+"id": "1072",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 124,
+"pref": "FERR",
+"linha": 71,
+"id": "1072",
+"empresa": "Higienize",
+"status": "SELECIONADA",
+"preco_regra": 234.94,
+"motivo": ""
+},
+{
+"idx": 125,
+"pref": "FERR",
+"linha": 72,
+"id": "1074",
+"empresa": "Casa dos Parafusos",
+"status": "SELECIONADA",
+"preco_regra": 919.2,
+"motivo": ""
+},
+{
+"idx": 126,
+"pref": "FERR",
+"linha": 73,
+"id": "1074",
+"empresa": "Dutra Máquinas",
+"status": "SELECIONADA",
+"preco_regra": 577.66,
+"motivo": ""
+},
+{
+"idx": 127,
+"pref": "FERR",
+"linha": 79,
+"id": "1075",
+"empresa": "Casa dos Parafusos",
+"status": "SELECIONADA",
+"preco_regra": 576.4,
+"motivo": ""
+},
+{
+"idx": 128,
+"pref": "FERR",
+"linha": 78,
+"id": "1075",
+"empresa": "Anhanguera Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print reduzido: nome, preço e frete ilegíveis"
+},
+{
+"idx": 129,
+"pref": "FERR",
+"linha": 77,
+"id": "1075",
+"empresa": "Plast House",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 130,
+"pref": "FERR",
+"linha": 81,
+"id": "1075",
+"empresa": "LF Máquinas e Ferramentas",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 131,
+"pref": "FERR",
+"linha": 82,
+"id": "1076",
+"empresa": "Casa do Saco de Lixo",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Preço do print diferente do da planilha (outra variação selecionada)"
+},
+{
+"idx": 132,
+"pref": "FERR",
+"linha": 91,
+"id": "1079",
+"empresa": "Anhanguera Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print reduzido: nome, preço e frete ilegíveis"
+},
+{
+"idx": 133,
+"pref": "FERR",
+"linha": 94,
+"id": "1080",
+"empresa": "Goiás Ferramentas",
+"status": "SELECIONADA",
+"preco_regra": 2989.0,
+"motivo": ""
+},
+{
+"idx": 134,
+"pref": "FERR",
+"linha": 95,
+"id": "1080",
+"empresa": "Casa dos Parafusos",
+"status": "SELECIONADA",
+"preco_regra": 3693.12,
+"motivo": ""
+},
+{
+"idx": 135,
+"pref": "FERR",
+"linha": 92,
+"id": "1080",
+"empresa": "Profissional da Limpeza",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 136,
+"pref": "FERR",
+"linha": 96,
+"id": "1080",
+"empresa": "Mundo Azul",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 137,
+"pref": "FERR",
+"linha": 98,
+"id": "1081",
+"empresa": "Mundo Azul",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Preço em faixa: variação (voltagem) não selecionada"
+},
+{
+"idx": 138,
+"pref": "FERR",
+"linha": 97,
+"id": "1081",
+"empresa": "LF Máquinas e Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print sem preço e/ou sem frete"
+},
+{
+"idx": 139,
+"pref": "FERR",
+"linha": 99,
+"id": "1082",
+"empresa": "Anhanguera Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print reduzido: nome, preço e frete ilegíveis"
+},
+{
+"idx": 140,
+"pref": "FERR",
+"linha": 105,
+"id": "1083",
+"empresa": "Anhanguera Ferramentas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Print reduzido: nome, preço e frete ilegíveis"
+},
+{
+"idx": 141,
+"pref": "FERR",
+"linha": 109,
+"id": "1084",
+"empresa": "Dutra Máquinas",
+"status": "SELECIONADA",
+"preco_regra": 17198.88,
+"motivo": ""
+},
+{
+"idx": 142,
+"pref": "FERR",
+"linha": 128,
+"id": "1089",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 6.98,
+"motivo": ""
+},
+{
+"idx": 143,
+"pref": "FERR",
+"linha": 126,
+"id": "1089",
+"empresa": "Dutra Máquinas",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 144,
+"pref": "FERR",
+"linha": 131,
+"id": "1090",
+"empresa": "Casa do Saco de Lixo",
+"status": "SELECIONADA",
+"preco_regra": 39.8,
+"motivo": ""
+},
+{
+"idx": 145,
+"pref": "FERR",
+"linha": 130,
+"id": "1090",
+"empresa": "Higienize",
+"status": "SELECIONADA",
+"preco_regra": 58.49,
+"motivo": ""
+},
+{
+"idx": 146,
+"pref": "FERR",
+"linha": 136,
+"id": "1091",
+"empresa": "Higienize",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Produto não corresponde: placa 'Em manutenção', não 'banheiro interditado'"
+},
+{
+"idx": 147,
+"pref": "FERR",
+"linha": 142,
+"id": "1092",
+"empresa": "Melhoramentos Higiene",
+"status": "SELECIONADA",
+"preco_regra": 45.7,
+"motivo": ""
+},
+{
+"idx": 148,
+"pref": "FERR",
+"linha": 143,
+"id": "1092",
+"empresa": "Calçados para Trabalhar",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 149,
+"pref": "FERR",
+"linha": 141,
+"id": "1092",
+"empresa": "Higienize",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 150,
+"pref": "FERR",
+"linha": 140,
+"id": "1092",
+"empresa": "Dutra Máquinas",
+"status": "NÃO REVISADA (vagas já preenchidas)",
+"preco_regra": null,
+"motivo": ""
+},
+{
+"idx": 151,
+"pref": "FERR",
+"linha": 146,
+"id": "1093",
+"empresa": "General Clean",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Produto não corresponde: rodo sem cabo; o insumo pede cabo"
+},
+{
+"idx": 152,
+"pref": "FERR",
+"linha": 147,
+"id": "1093",
+"empresa": "Plásticos Ipiranga",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Produto não corresponde: rodo sem cabo; o insumo pede cabo"
+},
+{
+"idx": 153,
+"pref": "FERR",
+"linha": 145,
+"id": "1093",
+"empresa": "Dutra Máquinas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Planilha usa o preço riscado ('De'); o preço atual sem PIX não aparece no print"
+},
+{
+"idx": 154,
+"pref": "FERR",
+"linha": 149,
+"id": "1094",
+"empresa": "Dutra Máquinas",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Planilha usa o preço riscado ('De'); o preço atual sem PIX não aparece no print"
+},
+{
+"idx": 155,
+"pref": "FERR",
+"linha": 150,
+"id": "1094",
+"empresa": "Gimba",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Frete coberto pelo banner de cookies no print"
+},
+{
+"idx": 156,
+"pref": "FERR",
+"linha": 154,
+"id": "1095",
+"empresa": "Profissional da Limpeza",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Produto não corresponde: rodo sem cabo; o insumo pede cabo"
+},
+{
+"idx": 157,
+"pref": "FERR",
+"linha": 157,
+"id": "1095",
+"empresa": "Melhoramentos Higiene",
+"status": "SELECIONADA",
+"preco_regra": 80.0,
+"motivo": ""
+},
+{
+"idx": 158,
+"pref": "FERR",
+"linha": 155,
+"id": "1095",
+"empresa": "Gimba",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "Frete coberto pelo banner de cookies no print"
+},
+{
+"idx": 159,
+"pref": "FERR",
+"linha": 156,
+"id": "1095",
+"empresa": "Higienize",
+"status": "SELECIONADA",
+"preco_regra": 118.55,
+"motivo": ""
+},
+{
+"idx": 160,
+"pref": "FERR",
+"linha": 160,
+"id": "1097",
+"empresa": "Cauê Distribuidora",
+"status": "REPROVADA",
+"preco_regra": null,
+"motivo": "CEP não preenchido: frete não aparece no print"
+},
+{
+"idx": 161,
+"pref": "FERR",
+"linha": 162,
+"id": "1097",
+"empresa": "PreveOeste",
+"status": "SELECIONADA",
+"preco_regra": 13.9,
+"motivo": ""
+},
+{
+"idx": 162,
+"pref": "FERR",
+"linha": 168,
+"id": "1099",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 39.82,
+"motivo": ""
+},
+{
+"idx": 163,
+"pref": "FERR",
+"linha": 170,
+"id": "1099",
+"empresa": "Casa do Saco de Lixo",
+"status": "SELECIONADA",
+"preco_regra": 39.9,
+"motivo": ""
+},
+{
+"idx": 164,
+"pref": "FERR",
+"linha": 181,
+"id": "1102",
+"empresa": "General Clean",
+"status": "SELECIONADA",
+"preco_regra": 20.5,
+"motivo": ""
+}
+]

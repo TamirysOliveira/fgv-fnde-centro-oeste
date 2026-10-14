@@ -16,6 +16,14 @@ A descrição é lida da esquerda para a direita:
    vira as buscas "CAMISETA DE UNIFORME" e "CAMISA DE UNIFORME".
 4. A coluna Embalagem (ex.: "GALÃO 5 L", "FRASCO 500 ML") também vira
    atributo de quantidade, quando informada.
+5. "APROXIMADAMENTE 20 L": tolerância de 10% (18 a 22 L), decisão de 13/10/2026.
+   Faixa de medida ("300–400 ML", "6 A 8 L"): valem só as pontas (300 ml ou
+   400 ml; 6 L ou 8 L), não os valores do meio (decisão de 13/10/2026).
+6. Teor (número com %, °, º ou INPM) no nome do insumo, ou na observação
+   quando ela fala em "teor" ou "concentração" (1000, 1055). "100% algodão"
+   não é teor. "Entre 2% e 2,5%" vale 2% ou 2,5%; "mínima de 96%" vale >= 96%.
+7. Atributo de texto depois do travessão (ex.: "AEROSSOL", "CABO LONGO"):
+   obrigatório, com os sinônimos de ``config_raspagem.ATRIBUTOS_TEXTO``.
 
 Para aceitar um produto do site:
     * o nome do produto não pode começar por "tecido", "kit", "suporte",
@@ -27,6 +35,10 @@ Para aceitar um produto do site:
       também precisam aparecer (evita "Carro Guia Maçarico" para
       "Carro Funcional para Limpeza");
     * os atributos de medida (5 L, 500 ML, 20 L...) precisam bater;
+    * o atributo de texto (aerossol, cabo longo...) precisa aparecer;
+    * teor: se o nome do produto mostra um teor, ele precisa ser o do insumo
+      (álcool 70° não serve para 46,2°); se não mostra, o produto não é
+      recusado aqui, e a conferência marca "NÃO INFORMADO" (decisão de 13/10);
     * as palavras restantes e a observação só aumentam a pontuação.
 """
 
@@ -36,7 +48,12 @@ import re
 import unicodedata
 from dataclasses import dataclass, field
 
-from fgv_precos.raspagem.config_raspagem import PALAVRAS_EXTRAS_MINIMAS
+from fgv_precos.raspagem.config_raspagem import (
+    ATRIBUTOS_CONFERIR_NO_PRINT,
+    ATRIBUTOS_TEXTO,
+    PALAVRAS_EXTRAS_MINIMAS,
+    TEORES_EQUIVALENTES,
+)
 
 PALAVRAS_VAZIAS = {
     "de", "da", "do", "das", "dos", "e", "em", "para", "com", "a", "o", "as", "os",
@@ -56,6 +73,12 @@ _RE_MEDIDA = re.compile(
     r"(\d+(?:[.,]\d+)?)\s*(ml|l|litros?|lts?|kg|g|m|cm|mm|w)\b", re.IGNORECASE
 )
 _UNIDADE_PADRAO = {"litro": "l", "litros": "l", "lt": "l", "lts": "l"}
+# Faixa "300–400 ml" / "6 a 8 l": a unidade só aparece depois do 2º número.
+_RE_FAIXA = re.compile(
+    r"(\d+(?:[.,]\d+)?)\s*(?:–|—|-|a)\s*(\d+(?:[.,]\d+)?)\s*(ml|l|litros?|lts?|kg|g|m|cm|mm|w)\b"
+)
+# Teor: "46,2°", "70º", "70%", "46 INPM". "GL" sozinho não entra (confunde com galão).
+_RE_TEOR = re.compile(r"(\d+(?:[.,]\d+)?)\s*(?:%|°|º|\binpm\b)")
 
 
 def normalizar(texto: str) -> str:
@@ -84,6 +107,33 @@ def medidas(texto: str) -> set[tuple[float, str]]:
     return achadas
 
 
+def medidas_insumo(texto: str) -> set[tuple[float, str]]:
+    """Medidas exigidas pelo insumo: como ``medidas``, e numa faixa valem as duas pontas."""
+    achadas = medidas(texto)
+    for a, b, unid in _RE_FAIXA.findall(normalizar(texto)):
+        achadas |= medidas(f"{a} {unid}") | medidas(f"{b} {unid}")
+    return achadas
+
+
+def teores(texto: str) -> set[float]:
+    """Teores escritos no texto: {46.2}, {70.0}, {2.0, 2.5}."""
+    return {round(float(n.replace(",", ".")), 2) for n in _RE_TEOR.findall(normalizar(texto))}
+
+
+def _teor_insumo(id_fgv: str, principal: str, observacao: str) -> tuple[set[float], bool]:
+    """Teores aceitos pelo insumo e se é mínimo ("concentração mínima de 96%")."""
+    aceitos, minimo = teores(principal), False
+    if not aceitos:
+        for trecho in re.split(r",\s|;", observacao):
+            t = normalizar(trecho)
+            if re.search(r"\bteor|concentra", t) and teores(t):
+                aceitos, minimo = teores(t), "minim" in t
+                break
+    if aceitos:
+        aceitos |= TEORES_EQUIVALENTES.get(str(id_fgv), set())
+    return aceitos, minimo
+
+
 @dataclass
 class Insumo:
     """Um insumo interpretado a partir da linha da planilha."""
@@ -96,6 +146,10 @@ class Insumo:
     medidas_obrigatorias: set[tuple[float, str]] = field(default_factory=set)
     observacao: str = ""
     medida_minima: bool = False      # atributo "MÍNIMO 120 L": aceita >= 120 L
+    medida_aproximada: bool = False  # "APROXIMADAMENTE 20 L": aceita 10% para mais ou menos
+    teores: set[float] = field(default_factory=set)   # {46.2, 46.0}
+    teor_minimo: bool = False        # "concentração mínima de 96%": aceita >= 96
+    atributos_texto: list[list[str]] = field(default_factory=list)  # [["aerossol", "spray"]]
 
     @property
     def termos_de_busca(self) -> list[str]:
@@ -149,13 +203,16 @@ def interpretar(id_fgv: str, grupo: str, descricao: str, embalagem: str = "") ->
     # Remove explicações entre parênteses do nome de busca.
     nome = re.sub(r"\(.*?\)", "", nome).strip()
 
-    obrig = medidas(atributo) | medidas(embalagem)
-    # Se o próprio nome tem medida (ex.: "ÁLCOOL ETÍLICO 70%"), ela fica no nome.
+    obrig = medidas_insumo(atributo) | medidas_insumo(embalagem)
+    teor, teor_min = _teor_insumo(id_fgv, principal, observacao)
     return Insumo(
         id_fgv=str(id_fgv), grupo=grupo, descricao=descricao, embalagem=embalagem,
         nomes_busca=[n.title() for n in _expandir_barras(nome)],
         medidas_obrigatorias=obrig, observacao=observacao,
         medida_minima="minimo" in normalizar(atributo),
+        medida_aproximada="aproximad" in normalizar(atributo),
+        teores=teor, teor_minimo=teor_min,
+        atributos_texto=ATRIBUTOS_TEXTO.get(str(id_fgv), []),
     )
 
 
@@ -221,11 +278,31 @@ def pontuar(insumo: Insumo, nome_produto: str) -> float:
         if insumo.medida_minima:
             ok = any(u == u2 and v2 >= v for v, u in insumo.medidas_obrigatorias
                      for v2, u2 in do_produto)
+        elif insumo.medida_aproximada:   # tolerância de 10% (decisão de 13/10/2026)
+            ok = any(u == u2 and abs(v2 - v) <= 0.10 * v + 1e-9
+                     for v, u in insumo.medidas_obrigatorias for v2, u2 in do_produto)
         else:
             ok = bool(insumo.medidas_obrigatorias & do_produto)
         if not ok:
             return 0.0
         melhor += 5
+    if melhor and insumo.atributos_texto:
+        nome_norm = _nome_produto_normalizado(nome_produto)
+        for alternativas in insumo.atributos_texto:
+            if any(re.search(rf"\b{re.escape(normalizar(a))}\b", nome_norm) for a in alternativas):
+                melhor += 3
+            elif insumo.id_fgv not in ATRIBUTOS_CONFERIR_NO_PRINT:
+                return 0.0     # ex.: aromatizador de varetas para "AEROSSOL"
+    if melhor and insumo.teores:
+        do_produto = teores(nome_produto)
+        if do_produto:
+            if insumo.teor_minimo:
+                ok = any(t >= min(insumo.teores) for t in do_produto)
+            else:
+                ok = bool(insumo.teores & do_produto)
+            if not ok:
+                return 0.0     # ex.: álcool 70° para o insumo de 46,2°
+            melhor += 5
     return melhor
 
 

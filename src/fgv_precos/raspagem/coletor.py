@@ -248,13 +248,18 @@ class Coletor:
             self._pw.stop()
 
     # ------------------------------------------------------------- coleta
-    def coletar_insumo(self, insumo: Insumo,
-                       fornecedor_filtro: str = "") -> tuple[list[Coleta], list[dict]]:
+    def coletar_insumo(self, insumo: Insumo, fornecedor_filtro: str = "",
+                       meta: int = PRECOS_POR_UF,
+                       pular_cnpjs: frozenset[str] = frozenset()) -> tuple[list[Coleta], list[dict]]:
         """Coleta um insumo e devolve (linhas da planilha, linhas do resumo).
 
         ``fornecedor_filtro`` (opcional) limita a coleta aos fornecedores cujo
         nome contém esse texto ou cujo CNPJ é esse (ex.: "singular").
+        ``meta`` e ``pular_cnpjs`` servem para completar o merge (13/10/2026):
+        quantos preços faltam no insumo e quais fornecedores (CNPJ só dígitos)
+        já têm preço nele e não precisam ser tentados.
         """
+        self._meta = meta
         if self.page is None:
             raise RuntimeError("Use o Coletor dentro de um bloco 'with'.")
         if insumo.grupo not in NOME_ARQUIVO_POR_GRUPO:
@@ -269,12 +274,16 @@ class Coletor:
         contagem = {uf: 0 for uf in CEPS}
         coletas: list[Coleta] = []
         fornecedores = [f for f in ler_fornecedores(insumo.grupo)
-                        if fornecedor_combina(f, fornecedor_filtro)]
+                        if fornecedor_combina(f, fornecedor_filtro)
+                        and somente_digitos(f.cnpj) not in pular_cnpjs]
+        if pular_cnpjs:
+            log.info("Completar o merge: faltam %d preços; %d fornecedores já estão no insumo.",
+                     meta, len(pular_cnpjs))
         if fornecedor_filtro:
             log.info("Fornecedores com '%s': %s", fornecedor_filtro,
                      [f.nome for f in fornecedores] or "nenhum")
         for fornecedor in fornecedores:
-            if all(n >= PRECOS_POR_UF for n in contagem.values()):
+            if all(n >= meta for n in contagem.values()):
                 break
             # "zeusdobrasil.com.br / epizeus.com.br": tenta cada site até achar o produto.
             for site in [s.strip() for s in fornecedor.site.split(" / ") if s.strip()]:
@@ -295,9 +304,9 @@ class Coletor:
         resumo = []
         for uf, n in contagem.items():
             manual = sum(1 for c in coletas if c.uf == uf and c.link_aproveitavel)
-            nivel = logging.INFO if n >= PRECOS_POR_UF else logging.WARNING
+            nivel = logging.INFO if n >= meta else logging.WARNING
             log.log(nivel, "Insumo %s - %s: %d de %d preços (%d para coleta manual).",
-                    insumo.id_fgv, uf, n, PRECOS_POR_UF, manual)
+                    insumo.id_fgv, uf, n, meta, manual)
             resumo.append({"ID FGV": insumo.id_fgv, "Grupo": insumo.grupo, "UF": uf,
                            "Preços coletados": n, "Faltam": max(PRECOS_POR_UF - n, 0),
                            "Sem preço visível (coluna P)": manual})
@@ -373,7 +382,7 @@ class Coletor:
         # Frete + print para cada UF que ainda precisa de preço.
         coletas = []
         for uf, cep in CEPS.items():
-            if contagem[uf] >= PRECOS_POR_UF:
+            if contagem[uf] >= getattr(self, "_meta", PRECOS_POR_UF):
                 continue
             if self.page.url != produto.url and not loja.abrir(produto.url):
                 continue
