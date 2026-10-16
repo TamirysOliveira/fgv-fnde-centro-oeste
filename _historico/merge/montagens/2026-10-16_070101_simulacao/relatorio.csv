@@ -1,0 +1,275 @@
+﻿Grupo;ID FGV;Origem;Empresa;Situação;Preço;Chave
+EPI / UNIFORME;1104;base;LOJAS 360 INDUSTRIA, COMERCIO, IMPORTACAO, EXPORTACAO LTDA;retirada (correção);90.24;
+EPI / UNIFORME;1109;base;SEGURANCA TOTAL EPIS LTDA;retirada (correção);16.51;
+EPI / UNIFORME;1110;base;SEGURANCA TOTAL EPIS LTDA;retirada (correção);37.9;
+EPI / UNIFORME;1110;base;SINGULAR COMERCIO DE EQUIPAMENTOS DE PROTECAO INDIVIDUAL LTDA (Loja do EPI);retirada (correção);25.86;
+EPI / UNIFORME;1113;base;ASTRO DISTRIBUIDORA LTDA;retirada (correção);52.57;
+EPI / UNIFORME;1114;base;LOJAS 360 INDUSTRIA, COMERCIO, IMPORTACAO, EXPORTACAO LTDA;retirada (correção);10.36;
+EPI / UNIFORME;1114;base;SEGURANCA TOTAL EPIS LTDA;retirada (correção);20.3;
+EPI / UNIFORME;1114;Coleta por link 2026-10-16_065027;Mais Segurança EPI;incluída;1.0;L|2026-10-16_065027|2
+EPI / UNIFORME;1114;William 13/10/2026;Goiás Ferramentas;incluída;1.9;W13|EPIS|40
+EPI / UNIFORME;1115;William 13/10/2026;Goiás Ferramentas;incluída;2.06;W13|EPIS|42
+EPI / UNIFORME;1114;William 13/10/2026;Fermarcs Ferramentas;incluída;2.99;W13|EPIS|41
+EPI / UNIFORME;1111;William 13/10/2026;Goiás Ferramentas;incluída;10.88;W13|EPIS|25
+EPI / UNIFORME;1113;William 13/10/2026;Casa do Pica-Pau;incluída;16.1;W13|EPIS|35
+EPI / UNIFORME;1118;William 13/10/2026;Fermarcs Ferramentas;incluída;17.5;W13|EPIS|57
+EPI / UNIFORME;1109;William 13/10/2026;Goiás Ferramentas;incluída;23.33;W13|EPIS|15
+EPI / UNIFORME;1109;William 13/10/2026;Fermarcs Ferramentas;incluída;24.9;W13|EPIS|16
+EPI / UNIFORME;1110;Robô 2026-10-14_105308;SEGURANCA TOTAL EPIS LTDA;incluída;4.69;R|2026-10-14_105308|1110|1
+EPI / UNIFORME;1112;William 13/10/2026;TR Distribuidora;incluída;2.82;W13|EPIS|34
+EPI / UNIFORME;1112;Robô 2026-10-14_105308;BHZ EPI DISTRIBUIDORA LTDA;incluída;3.9;R|2026-10-14_105308|1112|1
+EPI / UNIFORME;1114;Robô 2026-10-14_105308;TR Distribuidora de Equipamentos de Segurança LTDA;incluída;10.81;R|2026-10-14_105308|1114|2
+EPI / UNIFORME;1117;William 13/10/2026;Loja do EPI;incluída;20.91;W13|EPIS|52
+EPI / UNIFORME;1116;William 13/10/2026;Multiseg Comercio de Equipamentos de Seguranca Ltda;incluída;9.87;W13|EPIS|49
+EPI / UNIFORME;1110;William 13/10/2026;Multiseg Comercio de Equipamentos de Seguranca Ltda;incluída;9.98;W13|EPIS|20
+EPI / UNIFORME;1111;William 13/10/2026;A Master EPI;incluída;10.5;W13|EPIS|28
+EPI / UNIFORME;1118;William 13/10/2026;A Master EPI;incluída;12.0;W13|EPIS|60
+EPI / UNIFORME;1117;Robô 2026-10-14_105308;BHZ EPI DISTRIBUIDORA LTDA;incluída;25.0;R|2026-10-14_105308|1117|1
+EPI / UNIFORME;1119;William 13/10/2026;Gimba;incluída;18.99;W13|EPIS|62
+EPI / UNIFORME;1117;William 13/10/2026;A Master EPI;incluída;18.0;W13|EPIS|56
+EPI / UNIFORME;1112;Coleta por link 2026-10-13_163721;Dimensional Brasil Solucoes Ltda;incluída;2.09;L|2026-10-13_163721|95
+EPI / UNIFORME;1117;Robô 2026-10-14_105308;SEGURANCA TOTAL EPIS LTDA;incluída;36.99;R|2026-10-14_105308|1117|2
+EPI / UNIFORME;1118;William 13/10/2026;ZEUS DO BRASIL;incluída;17.9;W13|EPIS|61
+EPI / UNIFORME;1105;William 13/10/2026;Multiseg Comercio de Equipamentos de Seguranca Ltda;incluída;83.1;W13|EPIS|3
+EPI / UNIFORME;1107;William 13/10/2026;Multiseg Comercio de Equipamentos de Seguranca Ltda;incluída;89.6;W13|EPIS|7
+EPI / UNIFORME;1108;William 13/10/2026;Panan;incluída;86.9;W13|EPIS|12
+EPI / UNIFORME;1104;Robô 2026-10-14_105308;COMERCIAL DE REFRIGERACAO PANAN OESTE LTDA (Panan);incluída;53.5;R|2026-10-14_105308|1104|2
+EPI / UNIFORME;1108;William 13/10/2026;A Master EPI;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);52.0;W13|EPIS|11
+EPI / UNIFORME;1108;William 13/10/2026;Multiseg Comercio de Equipamentos de Seguranca Ltda;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);117.4;W13|EPIS|13
+EPI / UNIFORME;1113;William 13/10/2026;Fermarcs Ferramentas;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);19.9;W13|EPIS|39
+EPI / UNIFORME;1115;William 13/10/2026;Multiseg Comercio de Equipamentos de Seguranca Ltda;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);1.62;W13|EPIS|46
+EPI / UNIFORME;1113;Robô 2026-10-14_105308;SINGULAR COMERCIO DE EQUIPAMENTOS DE PROTECAO INDIVIDUAL LTDA (Loja do EPI);aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);26.93;R|2026-10-14_105308|1113|1
+EPI / UNIFORME;1114;Robô 2026-10-14_105308;ASTRO DISTRIBUIDORA LTDA;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);10.42;R|2026-10-14_105308|1114|1
+EPI / UNIFORME;1107;Coleta por link 2026-10-16_065027;Mais Segurança EPI;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);78.0;L|2026-10-16_065027|1
+LIMPEZA E HIGIENE;1001;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);45;
+LIMPEZA E HIGIENE;1001;base;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);retirada (correção);52.49;
+LIMPEZA E HIGIENE;1001;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);;
+LIMPEZA E HIGIENE;1002;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);59.9;
+LIMPEZA E HIGIENE;1003;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);;
+LIMPEZA E HIGIENE;1004;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);67.8;
+LIMPEZA E HIGIENE;1004;base;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);retirada (correção);60;
+LIMPEZA E HIGIENE;1004;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);42.73;
+LIMPEZA E HIGIENE;1009;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);12.97;
+LIMPEZA E HIGIENE;1009;base;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);retirada (correção);9.4;
+LIMPEZA E HIGIENE;1009;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);7.98;
+LIMPEZA E HIGIENE;1012;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);28.9;
+LIMPEZA E HIGIENE;1013;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);28.9;
+LIMPEZA E HIGIENE;1015;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);145.55;
+LIMPEZA E HIGIENE;1018;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);3.25;
+LIMPEZA E HIGIENE;1018;base;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);retirada (correção);3.62;
+LIMPEZA E HIGIENE;1018;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);4.89;
+LIMPEZA E HIGIENE;1020;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);2.8;
+LIMPEZA E HIGIENE;1020;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);2.49;
+LIMPEZA E HIGIENE;1020;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);2.39;
+LIMPEZA E HIGIENE;1021;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);3.1;
+LIMPEZA E HIGIENE;1021;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);2.75;
+LIMPEZA E HIGIENE;1021;base;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);retirada (correção);3.3;
+LIMPEZA E HIGIENE;1021;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);3.69;
+LIMPEZA E HIGIENE;1022;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);1.98;
+LIMPEZA E HIGIENE;1024;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);2.5;
+LIMPEZA E HIGIENE;1032;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);13.24;
+LIMPEZA E HIGIENE;1032;base;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);retirada (correção);6.99;
+LIMPEZA E HIGIENE;1032;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);3.9;
+LIMPEZA E HIGIENE;1032;base;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);retirada (correção);13.5;
+LIMPEZA E HIGIENE;1033;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);3.8;
+LIMPEZA E HIGIENE;1033;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);3.19;
+LIMPEZA E HIGIENE;1035;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);125;
+LIMPEZA E HIGIENE;1035;base;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);retirada (correção);49.99;
+LIMPEZA E HIGIENE;1036;base;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);retirada (correção);16.9;
+LIMPEZA E HIGIENE;1036;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);21.49;
+LIMPEZA E HIGIENE;1036;base;CASA DA LIMPEZA LTDA;retirada (correção);;
+LIMPEZA E HIGIENE;1042;base;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);retirada (correção);9.5;
+LIMPEZA E HIGIENE;1043;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);12;
+LIMPEZA E HIGIENE;1043;base;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);retirada (correção);69.9;
+LIMPEZA E HIGIENE;1043;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);18.99;
+LIMPEZA E HIGIENE;1044;base;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);retirada (correção);13;
+LIMPEZA E HIGIENE;1045;base;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);retirada (correção);4.7;
+LIMPEZA E HIGIENE;1045;base;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);retirada (correção);16.5;
+LIMPEZA E HIGIENE;1046;base;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);retirada (correção);139.9;
+LIMPEZA E HIGIENE;1047;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);62.98;
+LIMPEZA E HIGIENE;1048;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);62.98;
+LIMPEZA E HIGIENE;1048;base;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);retirada (correção);139.9;
+LIMPEZA E HIGIENE;1054;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);16.5;
+LIMPEZA E HIGIENE;1017;William 13/10/2026;ZIP Distribuidora;incluída;24.9;W13|MATE|60
+LIMPEZA E HIGIENE;1040;Coleta por link 2026-10-13_163721;CASA DA LIMPEZA LTDA;incluída;62.0;L|2026-10-13_163721|29
+LIMPEZA E HIGIENE;1014;William 13/10/2026;Casa da Limpeza;incluída;149.0;W13|MATE|46
+LIMPEZA E HIGIENE;1051;Coleta por link 2026-10-13_163721;CASA DA LIMPEZA LTDA;incluída;199.0;L|2026-10-13_163721|36
+LIMPEZA E HIGIENE;1008;Coleta por link 2026-10-13_163721;CASA DA LIMPEZA LTDA;incluída;205.0;L|2026-10-13_163721|7
+LIMPEZA E HIGIENE;1019;William 13/10/2026;General Clean;incluída;1.99;W13|MATE|67
+LIMPEZA E HIGIENE;1052;William 13/10/2026;Cauê Distribuidora;incluída;4.31;W13|MATE|197
+LIMPEZA E HIGIENE;1012;William 13/10/2026;Cauê Distribuidora;incluída;4.31;W13|MATE|40
+LIMPEZA E HIGIENE;1028;William 13/10/2026;General Clean;incluída;4.06;W13|MATE|106
+LIMPEZA E HIGIENE;1050;William 13/10/2026;Cauê Distribuidora;incluída;6.48;W13|MATE|188
+LIMPEZA E HIGIENE;1024;William 13/10/2026;Cauê Distribuidora;incluída;6.0;W13|MATE|88
+LIMPEZA E HIGIENE;1012;William 13/10/2026;Melhoramentos Higiene;incluída;2.0;W13|MATE|41
+LIMPEZA E HIGIENE;1024;Robô 2026-10-14_105308;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);incluída;2.5;R|2026-10-14_105308|1024|1
+LIMPEZA E HIGIENE;1016;William 13/10/2026;Melhoramentos Higiene;incluída;3.35;W13|MATE|58
+LIMPEZA E HIGIENE;1018;William 13/10/2026;Gimba;incluída;2.99;W13|MATE|65
+LIMPEZA E HIGIENE;1018;Robô 2026-10-14_105308;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;incluída;3.32;R|2026-10-14_105308|1018|2
+LIMPEZA E HIGIENE;1020;William 13/10/2026;Profissional da Limpeza;incluída;18.9;W13|MATE|76
+LIMPEZA E HIGIENE;1039;William 13/10/2026;Casa do Saco de Lixo;incluída;8.99;W13|MATE|151
+LIMPEZA E HIGIENE;1038;Robô 2026-10-14_105308;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);incluída;18.99;R|2026-10-14_105308|1038|1
+LIMPEZA E HIGIENE;1050;William 13/10/2026;Gimba;incluída;7.59;W13|MATE|189
+LIMPEZA E HIGIENE;1005;Coleta por link 2026-10-13_163721;Gimba;incluída;9.99;L|2026-10-13_163721|3
+LIMPEZA E HIGIENE;1034;William 13/10/2026;PreveOeste;incluída;20.9;W13|MATE|127
+LIMPEZA E HIGIENE;1020;William 13/10/2026;Melhoramentos Higiene;incluída;21.5;W13|MATE|73
+LIMPEZA E HIGIENE;1000;William 13/10/2026;General Clean;incluída;17.24;W13|MATE|5
+LIMPEZA E HIGIENE;1010;William 13/10/2026;General Clean;incluída;18.6;W13|MATE|31
+LIMPEZA E HIGIENE;1021;William 13/10/2026;Melhoramentos Higiene;incluída;23.9;W13|MATE|77
+LIMPEZA E HIGIENE;1020;William 13/10/2026;Gimba;incluída;22.89;W13|MATE|74
+LIMPEZA E HIGIENE;1042;William 13/10/2026;Guarulhos Embalagens;incluída;25.0;W13|MATE|163
+LIMPEZA E HIGIENE;1036;Robô 2026-10-14_105308;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);incluída;34.5;R|2026-10-14_105308|1036|4
+LIMPEZA E HIGIENE;1021;William 13/10/2026;Gimba;incluída;24.49;W13|MATE|78
+LIMPEZA E HIGIENE;1055;Coleta por link 2026-10-13_163721;LF Máquinas e Ferramentas;incluída;28.82;L|2026-10-13_163721|43
+LIMPEZA E HIGIENE;1054;William 13/10/2026;Cauê Distribuidora;incluída;37.83;W13|MATE|206
+LIMPEZA E HIGIENE;1007;William 13/10/2026;General Clean;incluída;37.22;W13|MATE|25
+LIMPEZA E HIGIENE;1008;Robô 2026-10-14_105308;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);incluída;13.29;R|2026-10-14_105308|1008|1
+LIMPEZA E HIGIENE;1035;William 13/10/2026;Guarulhos Embalagens;incluída;33.0;W13|MATE|134
+LIMPEZA E HIGIENE;1028;Robô 2026-10-14_105308;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);incluída;24.16;R|2026-10-14_105308|1028|1
+LIMPEZA E HIGIENE;1044;William 13/10/2026;Guarulhos Embalagens;incluída;36.5;W13|MATE|168
+LIMPEZA E HIGIENE;1045;William 13/10/2026;Cauê Distribuidora;incluída;53.99;W13|MATE|174
+LIMPEZA E HIGIENE;1053;Coleta por link 2026-10-13_163721;LF Máquinas e Ferramentas;incluída;34.31;L|2026-10-13_163721|39
+LIMPEZA E HIGIENE;1002;William 13/10/2026;Guarulhos Embalagens;incluída;38.0;W13|MATE|8
+LIMPEZA E HIGIENE;1003;William 13/10/2026;General Clean;incluída;49.88;W13|MATE|15
+LIMPEZA E HIGIENE;1045;William 13/10/2026;Guarulhos Embalagens;incluída;46.0;W13|MATE|173
+LIMPEZA E HIGIENE;1043;Robô 2026-10-14_105308;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);incluída;69.9;R|2026-10-14_105308|1043|1
+LIMPEZA E HIGIENE;1010;William 13/10/2026;Gimba;incluída;63.29;W13|MATE|33
+LIMPEZA E HIGIENE;1048;William 13/10/2026;Guarulhos Embalagens;incluída;83.0;W13|MATE|184
+LIMPEZA E HIGIENE;1002;Robô 2026-10-14_105308;H D DISTRIBUIDORA DE PRODUTOS HIGIENICOS E DESCARTAVEIS LTDA (HD Distribuidora);incluída;66.0;R|2026-10-14_105308|1002|2
+LIMPEZA E HIGIENE;1007;Coleta por link 2026-10-13_163721;Anhanguera Ferramentas;incluída;53.49;L|2026-10-13_163721|6
+LIMPEZA E HIGIENE;1015;Robô 2026-10-14_105308;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);incluída;70.62;R|2026-10-14_105308|1015|1
+LIMPEZA E HIGIENE;1040;William 13/10/2026;Cauê Distribuidora;incluída;101.99;W13|MATE|154
+LIMPEZA E HIGIENE;1014;William 13/10/2026;Dutra Máquinas;incluída;98.9;W13|MATE|47
+LIMPEZA E HIGIENE;1046;Robô 2026-10-14_105308;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);incluída;119.9;R|2026-10-14_105308|1046|1
+LIMPEZA E HIGIENE;1048;Robô 2026-10-14_105308;K.M COMERCIO DE EMBALAGENS E PRODUTOS DE LIMPEZA LTDA (Casa do Saco de Lixo);incluída;119.9;R|2026-10-14_105308|1048|2
+LIMPEZA E HIGIENE;1010;William 13/10/2026;Profissional da Limpeza;incluída;149.0;W13|MATE|34
+LIMPEZA E HIGIENE;1051;Robô 2026-10-14_105308;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);incluída;129.04;R|2026-10-14_105308|1051|1
+LIMPEZA E HIGIENE;1014;William 13/10/2026;Profissional da Limpeza;incluída;175.0;W13|MATE|49
+LIMPEZA E HIGIENE;1011;William 13/10/2026;General Clean;incluída;262.44;W13|MATE|37
+LIMPEZA E HIGIENE;1051;Robô 2026-10-14_105308;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);incluída;280.0;R|2026-10-14_105308|1051|2
+LIMPEZA E HIGIENE;1015;William 13/10/2026;Casa do Saco de Lixo;incluída;84.1;W13|MATE|50
+LIMPEZA E HIGIENE;1015;Robô 2026-10-14_105308;H D DISTRIBUIDORA DE PRODUTOS HIGIENICOS E DESCARTAVEIS LTDA (HD Distribuidora);incluída;524.0;R|2026-10-14_105308|1015|2
+LIMPEZA E HIGIENE;1000;William 13/10/2026;Melhoramentos Higiene;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);10.79;W13|MATE|3
+LIMPEZA E HIGIENE;1000;William 13/10/2026;Guarulhos Embalagens;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);12.9;W13|MATE|6
+LIMPEZA E HIGIENE;1016;William 13/10/2026;Cauê Distribuidora;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);3.84;W13|MATE|56
+LIMPEZA E HIGIENE;1019;William 13/10/2026;Higienize;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);1.3;W13|MATE|68
+LIMPEZA E HIGIENE;1019;William 13/10/2026;Guarulhos Embalagens;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);3.0;W13|MATE|71
+LIMPEZA E HIGIENE;1027;William 13/10/2026;ZIP Distribuidora;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);20.9;W13|MATE|101
+LIMPEZA E HIGIENE;1034;William 13/10/2026;Melhoramentos Higiene;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);111.55;W13|MATE|130
+LIMPEZA E HIGIENE;1044;William 13/10/2026;Cauê Distribuidora;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);45.4;W13|MATE|169
+LIMPEZA E HIGIENE;1052;William 13/10/2026;Melhoramentos Higiene;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);11.0;W13|MATE|198
+LIMPEZA PREDIAL;1074;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);198;
+LIMPEZA PREDIAL;1074;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);219.9;
+LIMPEZA PREDIAL;1074;base;Casa do Pica-Pau Ltda;retirada (correção);180.4;
+LIMPEZA PREDIAL;1074;base;CASA DA LIMPEZA LTDA;retirada (correção);;
+LIMPEZA PREDIAL;1075;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);449.9;
+LIMPEZA PREDIAL;1075;base;Casa do Pica-Pau Ltda;retirada (correção);180.4;
+LIMPEZA PREDIAL;1075;base;Fermarcs Comércio Varejista de Ferramentas e Acessórios Ltda;retirada (correção);959.9;
+LIMPEZA PREDIAL;1075;base;CASA DA LIMPEZA LTDA;retirada (correção);;
+LIMPEZA PREDIAL;1076;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);5.62;
+LIMPEZA PREDIAL;1081;base;HP Máquinas (HP Eletrotécnica Comércio Manutenção);retirada (correção);;
+LIMPEZA PREDIAL;1083;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);577.05;
+LIMPEZA PREDIAL;1083;base;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);retirada (correção);3473;
+LIMPEZA PREDIAL;1083;base;Fermarcs Comércio Varejista de Ferramentas e Acessórios Ltda;retirada (correção);999.9;
+LIMPEZA PREDIAL;1083;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);;
+LIMPEZA PREDIAL;1084;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);577.05;
+LIMPEZA PREDIAL;1084;base;Fermarcs Comércio Varejista de Ferramentas e Acessórios Ltda;retirada (correção);999.9;
+LIMPEZA PREDIAL;1084;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);;
+LIMPEZA PREDIAL;1085;base;Fermarcs Comércio Varejista de Ferramentas e Acessórios Ltda;retirada (correção);999.9;
+LIMPEZA PREDIAL;1085;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);;
+LIMPEZA PREDIAL;1086;base;Casa do Pica-Pau Ltda;retirada (correção);691.92;
+LIMPEZA PREDIAL;1087;base;Casa do Pica-Pau Ltda;retirada (correção);1383.84;
+LIMPEZA PREDIAL;1088;base;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);retirada (correção);44;
+LIMPEZA PREDIAL;1088;base;Fermarcs Comércio Varejista de Ferramentas e Acessórios Ltda;retirada (correção);20.9;
+LIMPEZA PREDIAL;1089;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);26.99;
+LIMPEZA PREDIAL;1090;base;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);retirada (correção);44;
+LIMPEZA PREDIAL;1091;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);59.59;
+LIMPEZA PREDIAL;1091;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);63.89;
+LIMPEZA PREDIAL;1091;base;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);retirada (correção);39;
+LIMPEZA PREDIAL;1091;base;SUPRIFLEX SUPRIMENTOS ONLINE LTDA;retirada (correção);11.98;
+LIMPEZA PREDIAL;1096;base;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);retirada (correção);45;
+LIMPEZA PREDIAL;1096;base;CASA DA LIMPEZA LTDA;retirada (correção);;
+LIMPEZA PREDIAL;1097;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);7.9;
+LIMPEZA PREDIAL;1103;base;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);retirada (correção);19.8;
+LIMPEZA PREDIAL;1103;base;SUPRICORP SUPRIMENTOS LTDA (Gimba);retirada (correção);29.79;
+LIMPEZA PREDIAL;1061;William 13/10/2026;Goiás Ferramentas;incluída;12.0;W13|FERR|21
+LIMPEZA PREDIAL;1059;William 13/10/2026;Fermarcs Ferramentas;incluída;22.5;W13|FERR|12
+LIMPEZA PREDIAL;1093;Coleta por link 2026-10-13_163721;CASA DA LIMPEZA LTDA;incluída;38.4;L|2026-10-13_163721|71
+LIMPEZA PREDIAL;1072;William 13/10/2026;Fermarcs Ferramentas;incluída;45.9;W13|FERR|70
+LIMPEZA PREDIAL;1086;Robô 2026-10-14_105308;Casa do Pica-Pau Ltda;incluída;557.33;R|2026-10-14_105308|1086|1
+LIMPEZA PREDIAL;1075;William 13/10/2026;Casa dos Parafusos;incluída;576.4;W13|FERR|79
+LIMPEZA PREDIAL;1074;William 13/10/2026;Casa dos Parafusos;incluída;919.2;W13|FERR|72
+LIMPEZA PREDIAL;1087;Robô 2026-10-14_105308;Casa do Pica-Pau Ltda;incluída;1114.66;R|2026-10-14_105308|1087|1
+LIMPEZA PREDIAL;1080;William 13/10/2026;Goiás Ferramentas;incluída;2989.0;W13|FERR|94
+LIMPEZA PREDIAL;1080;William 13/10/2026;Casa dos Parafusos;incluída;3693.12;W13|FERR|95
+LIMPEZA PREDIAL;1068;William 13/10/2026;General Clean;incluída;5.76;W13|FERR|49
+LIMPEZA PREDIAL;1076;William 13/10/2026;Cauê Distribuidora;incluída;8.99;W13|FERR|84
+LIMPEZA PREDIAL;1069;William 13/10/2026;General Clean;incluída;9.49;W13|FERR|54
+LIMPEZA PREDIAL;1097;Robô 2026-10-14_105308;PLAST HOUSE LTDA (Plast House);incluída;5.3;R|2026-10-14_105308|1097|1
+LIMPEZA PREDIAL;1069;William 13/10/2026;PreveOeste;incluída;12.9;W13|FERR|55
+LIMPEZA PREDIAL;1058;William 13/10/2026;Cauê Distribuidora;incluída;17.99;W13|FERR|8
+LIMPEZA PREDIAL;1097;William 13/10/2026;PreveOeste;incluída;13.9;W13|FERR|162
+LIMPEZA PREDIAL;1076;Coleta por link 2026-10-13_163721;Casa do Saco de Lixo;incluída;11.25;L|2026-10-13_163721|58
+LIMPEZA PREDIAL;1059;Coleta por link 2026-10-13_163721;LF Máquinas e Ferramentas;incluída;19.89;L|2026-10-13_163721|46
+LIMPEZA PREDIAL;1093;Robô 2026-10-14_105308;LF COMERCIAL DE BENS LTDA (LF Máquinas e Ferramentas);incluída;26.9;R|2026-10-14_105308|1093|1
+LIMPEZA PREDIAL;1102;William 13/10/2026;General Clean;incluída;20.5;W13|FERR|181
+LIMPEZA PREDIAL;1091;William 13/10/2026;Profissional da Limpeza;incluída;24.9;W13|FERR|135
+LIMPEZA PREDIAL;1058;Coleta por link 2026-10-13_163721;LF Máquinas e Ferramentas;incluída;27.9;L|2026-10-13_163721|45
+LIMPEZA PREDIAL;1076;Robô 2026-10-14_105308;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);incluída;10.9;R|2026-10-14_105308|1076|1
+LIMPEZA PREDIAL;1060;William 13/10/2026;Cauê Distribuidora;incluída;31.61;W13|FERR|17
+LIMPEZA PREDIAL;1098;William 13/10/2026;Casa do Saco de Lixo;incluída;15.5;W13|FERR|163
+LIMPEZA PREDIAL;1089;William 13/10/2026;General Clean;incluída;6.98;W13|FERR|128
+LIMPEZA PREDIAL;1078;Robô 2026-10-14_105308;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);incluída;17.57;R|2026-10-14_105308|1078|1
+LIMPEZA PREDIAL;1098;Robô 2026-10-14_105308;PREVEOESTE MATERIAIS DE SEGURANCA E DESCARTAVEIS LTDA (PreveOeste);incluída;33.9;R|2026-10-14_105308|1098|1
+LIMPEZA PREDIAL;1058;William 13/10/2026;General Clean;incluída;11.02;W13|FERR|11
+LIMPEZA PREDIAL;1094;Robô 2026-10-14_105308;LF COMERCIAL DE BENS LTDA (LF Máquinas e Ferramentas);incluída;48.9;R|2026-10-14_105308|1094|1
+LIMPEZA PREDIAL;1070;William 13/10/2026;Calçados para Trabalhar;incluída;42.9;W13|FERR|60
+LIMPEZA PREDIAL;1071;William 13/10/2026;Calçados para Trabalhar;incluída;46.13;W13|FERR|66
+LIMPEZA PREDIAL;1090;William 13/10/2026;Casa do Saco de Lixo;incluída;39.8;W13|FERR|131
+LIMPEZA PREDIAL;1098;William 13/10/2026;LF Máquinas e Ferramentas;incluída;47.78;W13|FERR|165
+LIMPEZA PREDIAL;1099;William 13/10/2026;General Clean;incluída;39.82;W13|FERR|168
+LIMPEZA PREDIAL;1092;William 13/10/2026;Melhoramentos Higiene;incluída;45.7;W13|FERR|142
+LIMPEZA PREDIAL;1072;Robô 2026-10-14_105308;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);incluída;43.04;R|2026-10-14_105308|1072|1
+LIMPEZA PREDIAL;1071;William 13/10/2026;General Clean;incluída;62.68;W13|FERR|63
+LIMPEZA PREDIAL;1070;Coleta por link 2026-10-13_163721;Gimba;incluída;49.9;L|2026-10-13_163721|54
+LIMPEZA PREDIAL;1071;William 13/10/2026;Gimba;incluída;49.9;W13|FERR|65
+LIMPEZA PREDIAL;1066;Coleta por link 2026-10-13_163721;LF Máquinas e Ferramentas;incluída;67.9;L|2026-10-13_163721|51
+LIMPEZA PREDIAL;1090;William 13/10/2026;Higienize;incluída;58.49;W13|FERR|130
+LIMPEZA PREDIAL;1070;Robô 2026-10-14_105308;J. F. DE MEDEIROS LTDA (Stars Produtos de Limpeza);incluída;29.9;R|2026-10-14_105308|1070|1
+LIMPEZA PREDIAL;1094;Coleta por link 2026-10-13_163721;Gimba;incluída;18.59;L|2026-10-13_163721|72
+LIMPEZA PREDIAL;1071;William 13/10/2026;Cauê Distribuidora;incluída;82.17;W13|FERR|64
+LIMPEZA PREDIAL;1089;William 13/10/2026;Dutra Máquinas;incluída;79.9;W13|FERR|126
+LIMPEZA PREDIAL;1099;William 13/10/2026;Casa do Saco de Lixo;incluída;39.9;W13|FERR|170
+LIMPEZA PREDIAL;1070;Robô 2026-10-14_105308;VW COMERCIO DE HIDRAULICA E PLASTICOS INDUSTRIAIS LTDA (Plásticos Ipiranga);incluída;73.65;R|2026-10-14_105308|1070|3
+LIMPEZA PREDIAL;1095;William 13/10/2026;Melhoramentos Higiene;incluída;80.0;W13|FERR|157
+LIMPEZA PREDIAL;1103;Coleta por link 2026-10-13_163721;Gimba;incluída;34.9;L|2026-10-13_163721|82
+LIMPEZA PREDIAL;1095;Coleta por link 2026-10-13_163721;Gimba;incluída;66.49;L|2026-10-13_163721|76
+LIMPEZA PREDIAL;1095;William 13/10/2026;Higienize;incluída;118.55;W13|FERR|156
+LIMPEZA PREDIAL;1098;William 13/10/2026;Dutra Máquinas;incluída;93.9;W13|FERR|167
+LIMPEZA PREDIAL;1091;William 13/10/2026;Gimba;incluída;74.9;W13|FERR|138
+LIMPEZA PREDIAL;1067;Coleta por link 2026-10-13_163721;LF Máquinas e Ferramentas;incluída;134.9;L|2026-10-13_163721|52
+LIMPEZA PREDIAL;1072;William 13/10/2026;Higienize;incluída;234.94;W13|FERR|71
+LIMPEZA PREDIAL;1062;William 13/10/2026;Profissional da Limpeza;incluída;149.9;W13|FERR|28
+LIMPEZA PREDIAL;1062;William 13/10/2026;Dutra Máquinas;incluída;229.9;W13|FERR|26
+LIMPEZA PREDIAL;1075;Coleta por link 2026-10-13_163721;Anhanguera Ferramentas;incluída;258.73;L|2026-10-13_163721|56
+LIMPEZA PREDIAL;1075;William 13/10/2026;Plast House;incluída;182.5;W13|FERR|77
+LIMPEZA PREDIAL;1071;William 13/10/2026;Higienize;incluída;374.29;W13|FERR|62
+LIMPEZA PREDIAL;1065;William 13/10/2026;Gimba;incluída;359.9;W13|FERR|42
+LIMPEZA PREDIAL;1065;William 13/10/2026;Dutra Máquinas;incluída;339.9;W13|FERR|41
+LIMPEZA PREDIAL;1074;William 13/10/2026;Dutra Máquinas;incluída;577.66;W13|FERR|73
+LIMPEZA PREDIAL;1079;William 13/10/2026;Dutra Máquinas;incluída;640.9;W13|FERR|90
+LIMPEZA PREDIAL;1064;William 13/10/2026;Dutra Máquinas;incluída;481.9;W13|FERR|35
+LIMPEZA PREDIAL;1079;Coleta por link 2026-10-13_163721;Anhanguera Ferramentas;incluída;723.41;L|2026-10-13_163721|62
+LIMPEZA PREDIAL;1082;William 13/10/2026;Dutra Máquinas;incluída;711.0;W13|FERR|101
+LIMPEZA PREDIAL;1064;William 13/10/2026;ZEUS DO BRASIL;incluída;751.9;W13|FERR|37
+LIMPEZA PREDIAL;1063;William 13/10/2026;Dutra Máquinas;incluída;887.77;W13|FERR|31
+LIMPEZA PREDIAL;1075;Coleta por link 2026-10-13_163721;LF Máquinas e Ferramentas;incluída;926.21;L|2026-10-13_163721|57
+LIMPEZA PREDIAL;1064;William 13/10/2026;Plásticos Ipiranga;incluída;539.58;W13|FERR|36
+LIMPEZA PREDIAL;1081;Coleta por link 2026-10-13_163721;LF Máquinas e Ferramentas;incluída;2849.0;L|2026-10-13_163721|63
+LIMPEZA PREDIAL;1083;Robô 2026-10-14_105308;NC BELLA COMERCIO E DISTRIBUICAO DE EQUIPAMENTOS E MATERIAIS DE LIMPEZA LTDA (NC Bella Distribuidora);incluída;4641.0;R|2026-10-14_105308|1083|2
+LIMPEZA PREDIAL;1084;William 13/10/2026;Dutra Máquinas;incluída;17198.88;W13|FERR|109
+LIMPEZA PREDIAL;1061;William 13/10/2026;Cauê Distribuidora;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);8.99;W13|FERR|23
+LIMPEZA PREDIAL;1063;William 13/10/2026;Plásticos Ipiranga;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);1173.1;W13|FERR|33
+LIMPEZA PREDIAL;1080;William 13/10/2026;Mundo Azul;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);3153.0;W13|FERR|96
+LIMPEZA PREDIAL;1092;William 13/10/2026;Higienize;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);80.09;W13|FERR|141
+LIMPEZA PREDIAL;1092;William 13/10/2026;Calçados para Trabalhar;aprovada, não usada (sem vaga, CNPJ já no insumo ou link já usado);55.81;W13|FERR|143

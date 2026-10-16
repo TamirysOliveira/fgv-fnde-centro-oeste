@@ -51,6 +51,7 @@ from dataclasses import dataclass, field
 from fgv_precos.raspagem.config_raspagem import (
     ATRIBUTOS_CONFERIR_NO_PRINT,
     ATRIBUTOS_TEXTO,
+    NOMES_ALTERNATIVOS,
     PALAVRAS_EXTRAS_MINIMAS,
     TEORES_EQUIVALENTES,
 )
@@ -67,7 +68,8 @@ PALAVRAS_VAZIAS = {
 PREFIXOS_RECUSADOS = ("tecido", "kit", "suporte", "refil", "organizador", "jogo de",
                       "capa para", "peca")
 # Nomes diferentes para o mesmo produto (comparados já sem acento).
-SINONIMOS = {"dispenser": "dispensador", "auditivo": "auricular"}
+# "sapato" = "calçado": decisão da Tamirys de 16/10/2026 (1107).
+SINONIMOS = {"dispenser": "dispensador", "auditivo": "auricular", "sapato": "calcado"}
 # Medidas reconhecidas no texto: número + unidade.
 _RE_MEDIDA = re.compile(
     r"(\d+(?:[.,]\d+)?)\s*(ml|l|litros?|lts?|kg|g|m|cm|mm|w)\b", re.IGNORECASE
@@ -207,7 +209,9 @@ def interpretar(id_fgv: str, grupo: str, descricao: str, embalagem: str = "") ->
     teor, teor_min = _teor_insumo(id_fgv, principal, observacao)
     return Insumo(
         id_fgv=str(id_fgv), grupo=grupo, descricao=descricao, embalagem=embalagem,
-        nomes_busca=[n.title() for n in _expandir_barras(nome)],
+        nomes_busca=list(dict.fromkeys(
+            [n.title() for n in _expandir_barras(nome)]
+            + [n.title() for n in NOMES_ALTERNATIVOS.get(str(id_fgv), [])])),
         medidas_obrigatorias=obrig, observacao=observacao,
         medida_minima="minimo" in normalizar(atributo),
         medida_aproximada="aproximad" in normalizar(atributo),

@@ -29,9 +29,18 @@ def somente_digitos(texto: object) -> str:
 
 
 def normalizar_url(url: object) -> str:
-    """Endereço sem esquema, "www.", parâmetros e barra final (para comparar links)."""
+    """Endereço sem esquema, "www.", parâmetros e barra final (para comparar links).
+
+    O "#..." é descartado, exceto quando é a rota de um site feito em JavaScript
+    ("#/produto-detalhes/..."): nesse caso é ele que identifica o produto (Mais
+    Segurança, 16/10/2026: os links do 1107 e do 1114 só diferem depois do "#").
+    """
     partes = urlparse(str(url or "").strip())
-    return f"{partes.netloc.lower().removeprefix('www.')}{partes.path.rstrip('/')}"
+    base = f"{partes.netloc.lower().removeprefix('www.')}{partes.path.rstrip('/')}"
+    rota = partes.fragment
+    if rota.startswith(("/", "!/")):
+        return f"{base}#{rota.rstrip('/')}"
+    return base
 
 
 def reais(valor: float) -> str:

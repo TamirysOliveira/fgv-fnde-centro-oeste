@@ -73,14 +73,27 @@ ATRIBUTOS_TEXTO: dict[str, list[list[str]]] = {
     "1092": [["piso molhado", "escorregadio"]],
 }
 
+# Nomes de produto aceitos além do nome do insumo, por insumo. Entram na regra de
+# aderência (``descricao.pontuar``) e na busca nos sites como alternativas do nome.
+# 1114 (decisão da Tamirys, 16/10/2026): respirador/máscara PFF2 descartável vale como
+# "MÁSCARA DE PROTEÇÃO DESCARTÁVEL", mesmo com o nome começando por "Respirador".
+# 1107 (decisão da Tamirys, 16/10/2026): tênis, bota e botina valem como "CALÇADO DE
+# SEGURANÇA" ("sapato" é sinônimo de "calçado" em ``descricao.SINONIMOS``). Pede
+# "segurança" no nome, para não levar a bota de PVC comum, que é o insumo 1108.
+NOMES_ALTERNATIVOS: dict[str, list[str]] = {
+    "1107": ["TÊNIS DE SEGURANÇA", "BOTA DE SEGURANÇA", "BOTINA DE SEGURANÇA"],
+    "1114": ["RESPIRADOR PFF2", "MÁSCARA PFF2"],
+}
+
 # Atributos que, se faltarem no nome, não recusam o produto: ele vai para a conferência
 # no print/página ("NÃO INFORMADO"). Decisão de 13/10/2026: quase nenhuma loja escreve
 # "cabo curto"/"cabo longo" no nome da pá.
 ATRIBUTOS_CONFERIR_NO_PRINT: set[str] = {"1088", "1089"}
 
 # Teores aceitos além do que está escrito na descrição (decisão de 13/10/2026:
-# o 1001 é álcool 46,2°, e "46°" no nome também vale).
-TEORES_EQUIVALENTES: dict[str, set[float]] = {"1001": {46.0}}
+# o 1001 é álcool 46,2°, e "46°" no nome também vale; 15/10/2026, William: o 54% original
+# também serve).
+TEORES_EQUIVALENTES: dict[str, set[float]] = {"1001": {46.0, 54.0}}
 
 # Frete maior que este múltiplo do preço gera um aviso no log, para conferência.
 FRETE_ALERTA_MULTIPLO: float = 3.0

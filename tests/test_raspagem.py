@@ -178,3 +178,42 @@ def test_teor_faixa_e_atributo_texto():
     assert pontuar(i, "Aromatizador de Ambientes Gel 400ml") == 0          # demais: obrigatório
     i = interpretar("1091", "X", "PLACA SINALIZADORA – BANHEIRO INTERDITADO - DOBRÁVEL/PORTÁTIL.")
     assert pontuar(i, "Placa Sinalizadora Banheiro Fora de Uso") > 0
+
+
+def test_1114_respirador_pff2_aceito_como_mascara_descartavel():
+    """Decisão de 16/10/2026: respirador/máscara PFF2 descartável vale para o 1114."""
+    i = interpretar("1114", "EPI / UNIFORME",
+                    "MÁSCARA DE PROTEÇÃO DESCARTÁVEL - USO CONFORME RISCO/ATIVIDADE.")
+    assert pontuar(i, "RESPIRADOR PFF2 AZ S/VALV PRO SAFETY - DELTA PLUS CA.38504") > 0
+    assert pontuar(i, "Mascara Pff2 sem Válvula Tnt Azul – Deltaplus") > 0
+    # os nomes já aceitos continuam valendo
+    assert pontuar(i, "MASCARA DESCARTAVEL PFF2 COM VALVULA") > 0
+    assert pontuar(i, "Máscara de Proteção PFF1 - Sem Válvula - CA 45020") > 0
+    # respirador reutilizável (sem PFF2) continua fora
+    assert pontuar(i, "Respirador Semi Facial 6200 3M") == 0
+    # a alternativa vale só para o 1114
+    outro = interpretar("1113", "EPI / UNIFORME", "ÓCULOS DE PROTEÇÃO - INCOLOR.")
+    assert pontuar(outro, "RESPIRADOR PFF2 AZ S/VALV") == 0
+
+
+def test_1001_aceita_46_2_46_e_54():
+    """15/10/2026 (William): para o 1001 valem 46,2°, 46° e 54%; 70° continua fora."""
+    i = interpretar("1001", "LIMPEZA E HIGIENE", "ÁLCOOL ETÍLICO 46,2° LÍQUIDO - USO GERAL.")
+    assert pontuar(i, "Álcool Etílico 46,2° Líquido 5L") > 0
+    assert pontuar(i, "Álcool Líquido 46° 1L") > 0
+    assert pontuar(i, "Álcool Etílico 54% Líquido 1L") > 0
+    assert pontuar(i, "Álcool Líquido 70° 5L") == 0
+
+
+def test_1107_sapato_tenis_bota_botina():
+    """16/10/2026: sapato = calçado; tênis, bota e botina de segurança valem para o 1107."""
+    i = interpretar("1107", "EPI / UNIFORME", "CALÇADO DE SEGURANÇA ANTIDERRAPANTE - PROTEÇÃO "
+                    "CONTRA AGENTES MECÂNICOS; IMPERMEÁVEL QUANDO APLICÁVEL.")
+    assert pontuar(i, "SAPATO IMPERMEAVEL ANTIDERRAPANTE PRETO MAN 41 - STICKY SHOES CA.39674") > 0
+    assert pontuar(i, "Tênis de Segurança Sticky Shoe Copa Branco Ca 44589 Antiderrapante") > 0
+    assert pontuar(i, "Bota EVA BB87 Cano Longo Preta CA 42632 - Soft Works | Antiderrapante e Segurança") > 0
+    assert pontuar(i, "Botina de Segurança Elástica Preta 70B19-E-BP - Marluvas") > 0
+    # bota de PVC comum (sem "segurança"/"antiderrapante") fica para o 1108
+    assert pontuar(i, "Bota PVC 82BPC600 Cano Curto Preta - Bracol") == 0
+    # "Sapato Flex Clean" não traz nem "antiderrapante" nem "segurança"
+    assert pontuar(i, "Sapato Flex Clean 101 – Preto – Marluvas") == 0

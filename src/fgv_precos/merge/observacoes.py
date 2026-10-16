@@ -54,7 +54,12 @@ MEDIDA_1D = {
 # Medidas em que "mais longo" também serve (decisão de 13/10/2026: desentupidor 1069 com
 # cabo de 90 cm fica, porque também é "cabo longo"). Aceita do pedido - 10% para cima.
 MEDIDA_1D_OU_MAIOR = {"1069"}
-TEOR_EQUIVALENTE_NOTA = {"1001": ({46.0}, "Álcool 46° aceito para o insumo de 46,2°.")}
+# Teores aceitos que ganham observação na coluna OBS: {ID: [(teores, nota), ...]}.
+TEOR_EQUIVALENTE_NOTA = {"1001": [
+    ({46.0}, "Álcool 46° aceito para o insumo de 46,2°."),
+    # 15/10/2026 (William): o 54% da descrição original também serve.
+    ({54.0}, "Álcool 54% aceito para o insumo de 46,2° (descrição original; decisão de 15/10/2026)."),
+]}
 
 
 def _perto(valor: float, pedido: float) -> bool:
@@ -142,9 +147,8 @@ def observacoes(id_fgv: str, produto: str, link: str = "") -> list[str]:
     for res in (medida_2d(id_fgv, produto), medida_1d(id_fgv, produto)):
         if res and res[0] == "ok":
             obs.append(res[1])
-    if id_fgv in TEOR_EQUIVALENTE_NOTA:
-        aceitos, nota = TEOR_EQUIVALENTE_NOTA[id_fgv]
-        do_prod = teores(produto)
+    do_prod = teores(produto) if id_fgv in TEOR_EQUIVALENTE_NOTA else set()
+    for aceitos, nota in TEOR_EQUIVALENTE_NOTA.get(id_fgv, []):
         if do_prod and do_prod <= aceitos:
             obs.append(nota)
     if link:

@@ -58,6 +58,8 @@ def test_observacoes_obs():
     assert medida_1d("1069", "Desentupidor com cabo 40CM")[0] == "fora"
     assert observacoes("1001", "Álcool Líquido Audax 46° 5L") == ["Álcool 46° aceito para o insumo de 46,2°."]
     assert observacoes("1001", "Álcool Etílico 46,2° 5L") == []
+    assert observacoes("1001", "Álcool Etílico 54% 1L") == [
+        "Álcool 54% aceito para o insumo de 46,2° (descrição original; decisão de 15/10/2026)."]
 
 
 def test_aproximadamente_robo():
@@ -100,3 +102,13 @@ def test_link_coluna_p_livre_para_o_mesmo_fornecedor():
     # ... a não ser que a outra linha seja retirada por correção
     assert m._links_coluna_p_do_candidato(mantidas, [cand], {"G": [linha, outro]},
                                           {("1096", "07964337000168")})
+
+
+def test_normalizar_url_mantem_rota_de_site_em_javascript():
+    from fgv_precos.merge.regras import normalizar_url
+    a = "https://maisseguranca.online/#/produto-detalhes/emp/-N4ce5UWWtjnB32sQoGd"
+    b = "https://maisseguranca.online/#/produto-detalhes/emp/-NWsT-o_-VgTH2z0Xn2v"
+    assert normalizar_url(a) != normalizar_url(b)
+    # âncora comum continua ignorada; parâmetros e "www." também
+    assert normalizar_url("https://www.loja.com/produto-x/#avaliacoes") == "loja.com/produto-x"
+    assert normalizar_url("https://loja.com/produto-x?PID=1") == "loja.com/produto-x"
